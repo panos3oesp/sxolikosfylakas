@@ -1,13 +1,19 @@
-# sxolikosfylakas
+# sxolikosfylakas - Σχολικός Φύλακας
 An autonomous robot that recognises human faces and alerts via email if any unauthorized person enters  the school region.
+Ένα αυτόνομο ρομπότ που αναγνωρίζει ανθρώπινα πρόσωπα και σε περίπτωση εισβολής μη αναγνωρίσιμου προσώπου τις ώρες που το σχολείο είναι κλειστό θα ενημερώνει με email.
 
-We are going to use the following set of materials (in greek for the moment):
+<h2>Γενικό Πλάνο</h2>
+
+.. θα συμπληρωθεί εδώ το μηχανολογικό & ηλεκτρονικό σχέδιο του ρομπότ.
+
+<h2>Υλικά</h2>
+Πρόκειται να χρησιμοποιήσουμε  τα παρακάτω υλικά:
 
 <table>
   <tr>
-    <th>index</td>
-    <th>Part Name</td>
-    <th># of parts</td>
+    <th>α/α</td>
+    <th>Όνομα</td>
+    <th>τεμάχια</td>
   </tr>
   <tr>
     <td>1</td>
