@@ -10,6 +10,9 @@ An autonomous robot that recognises human faces and alerts via email if any unau
 Πρόκειται να χρησιμοποιήσουμε  τα παρακάτω υλικά:
 
 <table>
+  <col align="center">
+  <col align="center">
+  <col align="center">
   <tr>
     <th>α/α</td>
     <th>Όνομα</td>
