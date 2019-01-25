@@ -3,8 +3,8 @@ An autonomous robot that recognises human faces and alerts via email if any unau
 
 We are going to use the following set of materials (in greek for the moment):
 
-Αισθητήρας Ανίχνευσης Κίνησης HC-SR501  	2
-Waveshare Αισθητήρας Ήχου 	1
+Αισθητήρας Ανίχνευσης Κίνησης HC-SR501  	2\n
+Waveshare Αισθητήρας Ήχου 	1<br>
 Waveshare Υπέρυθρος Αισθητήρας Εμποδίων  	1
 Αισθητήρας Απόστασης Υπέρυθρος - Sharp GP2Y0A21YK	4
 Τροφοδοτικό 5V 2.5A για Raspberry Pi Μαύρο (Γνήσιο)	1
