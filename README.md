@@ -91,7 +91,7 @@ An autonomous robot that recognises human faces and alerts via email if any unau
 <tr>
 <th>α/α</th>
 <th>Υποέργο</th>
-<th><Υπεύθυνοι</th>
+<th>Υπεύθυνοι</th>
 </tr>
 <tr>
 	<td>1</td>
