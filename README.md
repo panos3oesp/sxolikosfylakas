@@ -108,11 +108,7 @@ An autonomous robot that recognises human faces and alerts via email if any unau
 	<td>Αναγνώριση Προσώπου</td>
 	<td>Μίλτος (ΔΠ)<br />Μαρία Τ.(ΒΠ)<br />Ελβίρα(ΔΠ)<br />Μιχάλης (ΔΠ)</td>
 </tr>
-<tr>
-	<td>3</td>
-	<td>Αναγνώριση Προσώπου</td>
-	<td>Μίλτος (ΔΠ)<br />Μαρία Τ.(ΒΠ)<br />Ελβίρα(ΔΠ)<br />Μιχάλης (ΔΠ)</td>
-</tr>
+
 <tr>
 	<td>4</td>
 	<td>Ήχος</td>
