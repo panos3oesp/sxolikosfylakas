@@ -116,7 +116,7 @@ An autonomous robot that recognises human faces and alerts via email if any unau
 <tr>
 	<td>4</td>
 	<td>Ήχος</td>
-	<td>Νίκος (ΓΠ)<br> /Ταξιάρχης(ΓΠ)
+	<td>Νίκος (ΓΠ)<br> Ταξιάρχης(ΓΠ)
 </tr>
 
 
