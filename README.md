@@ -132,7 +132,7 @@ An autonomous robot that recognises human faces and alerts via email if any unau
 	
 	<td>7</td>
 	<td>Μηχανικό Μέρος</td>
-	<td>Μιχάλης (ΓΠ)<br />Παναγιώτης (ΓΠ)<br />Γιώργος (ΒΠ)</td>
+	<td>Μιχάλης (ΓΠ)<br />Παναγιώτης (ΓΠ)<br />Γιώργος (ΒΠ)<br /> </td>
 </tr>
 	
 	
