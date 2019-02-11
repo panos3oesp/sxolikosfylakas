@@ -138,4 +138,4 @@ An autonomous robot that recognises human faces and alerts via email if any unau
 </table>
 
 
-<img src="designA.svg" />
+<img src="DesignA.svg" />
