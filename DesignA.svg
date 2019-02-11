@@ -21,17 +21,6 @@
      id="defs2">
     <clipPath
        clipPathUnits="userSpaceOnUse"
-       id="clipPath3751">
-      <use
-         x="0"
-         y="0"
-         xlink:href="#g3747"
-         id="use3753"
-         width="100%"
-         height="100%" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
        id="clipPath3762">
       <use
          x="0"
@@ -51,7 +40,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
      inkscape:cx="332.21614"
-     inkscape:cy="114.22026"
+     inkscape:cy="740.51484"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -69,7 +58,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -86,7 +75,7 @@
        style="fill:#ffccaa;stroke-width:0.27214438" />
     <g
        id="g3749"
-       clip-path="url(#clipPath3751)"
+       clip-path="none"
        transform="translate(5.3453903,41.694049)">
       <g
          inkscape:label="Clip"
@@ -111,6 +100,14 @@
              sodipodi:role="line">μοτέρ Α</tspan></text>
       </g>
     </g>
+    <use
+       height="100%"
+       width="100%"
+       id="use3753"
+       xlink:href="#g3747"
+       y="0"
+       x="0"
+       transform="translate(5.3453903,41.694049)" />
     <g
        id="g3760"
        clip-path="url(#clipPath3762)"
