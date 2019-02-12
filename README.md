@@ -65,12 +65,12 @@ An autonomous robot that recognises human faces and alerts via email if any unau
 </tr>
 <tr>
   <td>10</td>
-  <td>Waveshare RPi Motor Driver HAT</td>
+  <td><a href="https://grobotronics.com/waveshare-rpi-motor-driver-hat.html">Waveshare RPi Motor Driver HAT</a></td>
   <td>1</td>
 </tr>
 <tr>
   <td>11</td>
-  <td>Raspberry Pi 3 - Model B+</td>
+  <td><a href="https://grobotronics.com/raspberry-pi-3-model-b-el.html">Raspberry Pi 3 - Model B+</a></td>
   <td>1</td>
 </tr>
 <tr>
