@@ -35,7 +35,7 @@ An autonomous robot that recognises human faces and alerts via email if any unau
 </tr>
  <tr>
   <td>4</td>
-  <td>Αισθητήρας Απόστασης Υπέρυθρος - Sharp GP2Y0A21YK</td>
+  <td><a href="https://grobotronics.com/infrared-proximity-sensor-sharp-gp2y0a21yk.html">Αισθητήρας Απόστασης Υπέρυθρος - Sharp GP2Y0A21YK</a></td>
   <td>4</td>
  </tr>
  <tr>
@@ -45,17 +45,17 @@ An autonomous robot that recognises human faces and alerts via email if any unau
 </tr>
 <tr>
   <td>6</td>
-  <td>Micro SD 16GB - Pre-Loaded with NOOBS</td>
+  <td><a href="https://grobotronics.com/micro-sd-16gb-pre-loaded-with-noobs.html">Micro SD 16GB - Pre-Loaded with NOOBS</a></td>
   <td>1</td>
 </tr>
 <tr>
   <td>7</td>
-  <td>Raspberry Pi Heatsink - Black (Set of 2)</td>
+  <td><a href="https://grobotronics.com/raspberry-pi-heatsink-silver-set-of-3.html">Raspberry Pi Heatsink - Black (Set of 2)</a></td>
   <td>1</td>
 </tr>
 <tr>
   <td>8</td>
-  <td>Raspberry Pi Camera Module  (8MP,1080p)</td>
+  <td><a href="https://grobotronics.com/raspberry-pi-camera-module-noir-v2-8mp-1080p.html">Raspberry Pi Camera Module  (8MP,1080p)</a></td>
   <td>1</td>
 </tr>
 <tr>
