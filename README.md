@@ -20,7 +20,7 @@ An autonomous robot that recognises human faces and alerts via email if any unau
   </tr>
   <tr>
     <td>1</td>
-    <td>Αισθητήρας Ανίχνευσης Κίνησης HC-SR501</td>  	
+    <td><a href="https://grobotronics.com/pir-sensor-module.html">Αισθητήρας Ανίχνευσης Κίνησης HC-SR501</a></td>  	
     <td>2</td>
  </tr>
  <tr>
