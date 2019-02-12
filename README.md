@@ -139,6 +139,6 @@ An autonomous robot that recognises human faces and alerts via email if any unau
 <h2>Σχέδιο Τομή</h2>
 <img src="DesignB.svg" />
 
-<h2>Σχέδιο Από Πάνω</h2>
-<img src="DesignA.svg"  />
+<h2>Κάτοψη</h2>
+<img src="DesignA.png"  />
 
