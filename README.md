@@ -75,7 +75,7 @@ An autonomous robot that recognises human faces and alerts via email if any unau
 </tr>
 <tr>
   <td>12</td>
-  <td>Κινητήρες Servo</td>
+  <td><a href="https://grobotronics.com/servo-mini-3.5kg.cm-feetech-ft1117m.html">Κινητήρες Servo</a></td>
   <td>1</td>
 </tr>
 <tr>
