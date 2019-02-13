@@ -30,7 +30,7 @@ An autonomous robot that recognises human faces and alerts via email if any unau
  </tr>
  <tr>
   <td>3</td>
-  <td>Waveshare Υπέρυθρος Αισθητήρας Εμποδίων</td>
+  <td><a href="https://grobotronics.com/waveshare-infrared-reflective-sensor.html">Waveshare Υπέρυθρος Αισθητήρας Εμποδίων</a></td>
   <td>1</td>
 </tr>
  <tr>
