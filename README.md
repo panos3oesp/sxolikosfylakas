@@ -60,7 +60,7 @@ An autonomous robot that recognises human faces and alerts via email if any unau
 </tr>
 <tr>
   <td>9</td>
-  <td>Raspberry Pi 3 Case Red & White - Compatible</td>
+  <td><a href="https://grobotronics.com/raspberry-pi-3-case-red-and-white-compatible.html">Raspberry Pi 3 Case Red & White - Compatible</a></td>
   <td>1</td>
 </tr>
 <tr>
