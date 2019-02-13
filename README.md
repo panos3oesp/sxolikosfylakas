@@ -40,7 +40,7 @@ An autonomous robot that recognises human faces and alerts via email if any unau
  </tr>
  <tr>
   <td>5</td>
-  <td>Τροφοδοτικό 5V 2.5A για Raspberry Pi Μαύρο (Γνήσιο)</td>
+  <td><a href="https://grobotronics.com/power-supply-5v-2.5a-raspberry-pi-official-black.html">Τροφοδοτικό 5V 2.5A για Raspberry Pi Μαύρο (Γνήσιο)</a></td>
   <td>1</td>
 </tr>
 <tr>
