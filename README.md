@@ -25,7 +25,7 @@ An autonomous robot that recognises human faces and alerts via email if any unau
  </tr>
  <tr>
   <td>2</td>
-  <td>Waveshare Αισθητήρας Ήχου</td>
+	<td><a href="https://grobotronics.com/waveshare-sound-sensor.html">Waveshare Αισθητήρας Ήχου</a></td>
   <td>1</td>
  </tr>
  <tr>
