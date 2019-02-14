@@ -6,7 +6,7 @@ An autonomous robot that recognises human faces and alerts via email if any unau
 
 .. θα συμπληρωθεί εδώ το μηχανολογικό & ηλεκτρονικό σχέδιο του ρομπότ.
 <h2>Πλάνα από την αρχική - βασική λειτουργία κίνησης</h2>
-[![Βασική Λειτουργία](http://img.youtube.com/vi/PikkqNtC3kI/0.jpg)](http://www.youtube.com/watch?v=PikkqNtC3kI "Βασική Λειτουργία")
+[![Alt text](https://img.youtube.com/vi/PikkqNtC3kI/0.jpg)](https://www.youtube.com/watch?v=PikkqNtC3kI)
 <h2>Υλικά</h2>
 Πρόκειται να χρησιμοποιήσουμε  τα παρακάτω υλικά:
 
