@@ -5,5 +5,5 @@ class ConfigurationManager:
     self.dbPath = dbPath
     self.faceImagesPath = faceImagesPath
  
- confManager =  ConfigurationManager("11:00","8:00","robot.db","images/faces/")
+ confManager =  ConfigurationManager("11:00","8:00","res/db/robot.db","res/images/faces/")
  
