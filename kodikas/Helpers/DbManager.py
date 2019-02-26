@@ -38,4 +38,3 @@ class DbManager:
 #a=DbManager("robot2.sqlite")
 #persons=a.runSelect("SELECT * FROM Person")
 #print (persons)
-
