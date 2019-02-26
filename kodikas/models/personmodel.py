@@ -8,12 +8,14 @@
 # Copyright:   (c) mathitis 2019
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
-from dbmanager import *
-
+#from Helpers.dbmanager import *
+from  Helpers.DbManager import *
 class PersonModel:
-
+    def __init__(self,dbPath):
+        self.dbPath = dbPath
     def getAll(self):
-        db=DbManager("robot2.sqlite")
+        
+        db=DbManager(self.dbPath)
         persons=db.runSelect("SELECT * FROM Person")
         return persons
 
