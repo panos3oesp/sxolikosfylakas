@@ -12,7 +12,9 @@ import RPi.GPIO as GPIO
 import time
 class MoveController:
     def __init__ (self,sensor1,sendor2,sensor3,sensor4,move):
+        self.DISTANCE2STOP = 50
         self.DISTANCE2TURN = 30
+        self.currentDirection="f"
         self.sensor1="1"
         self.sensor2="2"
         self.sensor3="3"
@@ -47,15 +49,22 @@ class MoveController:
         rightDistance = self.getDistance(self.sensor3)
         leftDistance = self.getDistance(self.sensor4)
 
-        if frontDistance > self.DISTANCE2TURN:
-            self.forward()
-        else:
+        if frontDistance > self.DISTANCE2STOP:
+            self.currentDirection = "f"
+            self.forward()                    
+        else:     
+            if self.currentDirection == "f":
+                self.stop()
+                
             if rightDistance > self.DISTANCE2TURN:
+                self.currentDirection = "r"
                 self.right()
             else:
                 if leftDistance > self.DISTANCE2TURN:
+                    self.currentDirection = "l"
                     self.left()
                 else:
+                    self.currentDirection = "b"
                     reverse()
 
 
