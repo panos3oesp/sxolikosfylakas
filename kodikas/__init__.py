@@ -5,3 +5,7 @@ Helpers/
 models/
     __init__.py
     personmodel.py
+controllers/
+    __init__.py
+    moveController.py
+    faceRecognition.py
