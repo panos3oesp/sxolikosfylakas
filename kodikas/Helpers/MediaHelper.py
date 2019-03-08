@@ -1,12 +1,16 @@
-import playsound
+from gtts import gTTS
+import os
 
 class MediaHelper:
    def __init__(self,imagePath,mp3Path):
         self.imagePath=imagePath
         self.mp3Path=mp3Path
 
-    def  playMp3(self,mp3File):
-        playsound.playsound(mp3Path+mp3File, True)
+
+   def playStringAsSound(self,theString):
+      tts = gTTS(text=theString, lang='el')
+      tts.save("temp.mp3")
+      os.system("mpg321 temp.mp3")
 
 
 
