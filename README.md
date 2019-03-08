@@ -18,7 +18,8 @@ An autonomous robot that recognises human faces and alerts via email if any unau
 		
 
 <h2>Πλάνα από την αρχική - βασική λειτουργία κίνησης</h2>
-<a href="https://www.youtube.com/watch?v=PikkqNtC3kI">Πατήστε εδώ για το video</a>
+<a href="https://www.youtube.com/watch?v=L-_xVFDmJX4">Πατήστε εδώ για το video</a><br />
+<a href="https://www.youtube.com/watch?v=PikkqNtC3kI">Πατήστε εδώ για το video 2</a>
 
 <h2>Διάγραμμα Ροής</h2>
 πατήστε <a href="robot.pdf" target="__blank">εδώ για να δείτε το διάγραμμα ροής</a>

@@ -1,7 +1,23 @@
+<<<<<<< HEAD
 import RPi.GPIO as GPIO
 import time
 class MoveController:
     def __init__ (self):
+=======
+#-------------------------------------------------------------------------------
+# Name:        module1
+# Purpose:
+#
+# Author:      mathitis
+#
+# Created:     27/02/2019
+# Copyright:   (c) mathitis 2019
+# Licence:     <your licence>
+#-------------------------------------------------------------------------------
+import RPi.GPIO as GPIO
+import time
+class MoveController:
+    def __init__ (self,sensor1,sendor2,sensor3,sensor4,move):
         self.DISTANCE2STOP = 50
         self.DISTANCE2TURN = 30
         self.currentDirection="f"
@@ -15,12 +31,19 @@ class MoveController:
         self.PWMA2 = 13
         self.PWMB1 = 20
         self.PWMB2 = 21
+
+        self.PWMA1 = 6
+        self.PWMA2 = 13
+        self.PWMB1 = 20
+        self.PWMB2 = 21
+
         self.D1 = 12
         self.D2 = 26
         self.PWM = 50
         GPIO.setmode(GPIO.BCM)
         GPIO.setwarnings(False)
         GPIO.setup(self.PIN,GPIO.IN,GPIO.PUD_UP)
+
         GPIO.setup(self.PWMA1,GPIO.OUT)
         GPIO.setup(self.PWMA2,GPIO.OUT)
         GPIO.setup(self.PWMB1,GPIO.OUT)
@@ -29,6 +52,16 @@ class MoveController:
         GPIO.setup(self.D2,GPIO.OUT)
         self.p1 = GPIO.PWM(self.D1,500)
         self.p2 = GPIO.PWM(self.D2,500)
+
+        GPIO.setup(self.PWMA1,GPIO.OUT)
+        GPIO.setup(self.PWMA2,GPIO.OUT)
+        GPIO.setup(self.PWMB1,GPIO.OUT)
+        GPIO.setup(self.PWMB2,GPIO.OUT)
+        GPIO.setup(self.D1,GPIO.OUT)
+        GPIO.setup(self.D2,GPIO.OUT)
+        self.p1 = GPIO.self.PWM(self.D1,500)
+        self.p2 = GPIO.self.PWM(self.D2,500)
+
         self.p1.start(50)
         self.p2.start(50)
     def getDistance(self,sensor):
@@ -60,6 +93,7 @@ class MoveController:
 
 
 
+
     def set_motor(self,A1,A2,B1,B2):
         GPIO.output(self.PWMA1,A1)
         GPIO.output(self.PWMA2,A2)
@@ -83,16 +117,49 @@ class MoveController:
 
     def right(self):
             self.set_motor(0,0,1,0)
+
+    def set_motor(A1,A2,B1,B2):
+        GPIO.output(self.PWMA1,A1)
+        GPIO.output(self.PWMA2,A2)
+        GPIO.output(self.PWMB1,B1)
+        GPIO.output(self.PWMB2,B2)
+
+    def forward():
+            GPIO.output(self.PWMA1,1)
+            GPIO.output(self.PWMA2,0)
+            GPIO.output(self.PWMB1,1)
+            GPIO.output(self.PWMB2,0)
+
+    def stop():
+            set_motor(0,0,0,0)
+
+    def reverse():
+            set_motor(0,1,0,1)
+
+    def left():
+            set_motor(1,0,0,0)
+
+    def right():
+            set_motor(0,0,1,0)
+
     '''def getkey():
         if GPIO.input(self.PIN) == 0:
             count = 0
             while GPIO.input(self.PIN) == 0 and count < 200:  #9ms
                 count += 1
                 time.sleep(0.00006)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 412bedd954b55056fa3613a16cab83437645f0ee
             count = 0
             while GPIO.input(self.PIN) == 1 and count < 80:  #4.5ms
                 count += 1
                 time.sleep(0.00006)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 412bedd954b55056fa3613a16cab83437645f0ee
             idx = 0
             cnt = 0
             data = [0,0,0,0]
@@ -114,6 +181,10 @@ class MoveController:
                     cnt += 1
             if data[0]+data[1] == 0xFF and data[2]+data[3] == 0xFF:  #check
                 return data[2]
+<<<<<<< HEAD
+=======
+
+>>>>>>> 412bedd954b55056fa3613a16cab83437645f0ee
         print('IRM Test Start ...')
         stop()
         try:
@@ -152,3 +223,8 @@ class MoveController:
             GPIO.cleanup();
 '''
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 412bedd954b55056fa3613a16cab83437645f0ee
