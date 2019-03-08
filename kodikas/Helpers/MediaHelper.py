@@ -2,11 +2,12 @@ from gtts import gTTS
 import os
 
 class MediaHelper:
-   def __init__(self,imagePath,mp3Path):
+   '''def __init__(self,imagePath,mp3Path):
         self.imagePath=imagePath
         self.mp3Path=mp3Path
-
-
+'''
+   def __init__(self):
+      self.imagePath=""
    def playStringAsSound(self,theString):
       tts = gTTS(text=theString, lang='el')
       tts.save("temp.mp3")
