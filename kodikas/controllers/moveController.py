@@ -1,18 +1,17 @@
-
-
-
 import RPi.GPIO as GPIO
 import time
+import serial
+
 class MoveController:
     def __init__ (self):
-        self.DISTANCE2STOP = 50
+        self.DISTANCE2STOP = 30
         self.DISTANCE2TURN = 30
         self.currentDirection="f"
-        self.sensor1="1"
-        self.sensor2="2"
-        self.sensor3="3"
-        self.sensor4="4"
-        self.move=""
+        self.sensor1=0
+        self.sensor2=1
+        self.sensor3=2
+        self.sensor4=3
+        
         self.PIN = 18
         self.PWMA1 = 6
         self.PWMA2 = 13
@@ -39,31 +38,46 @@ class MoveController:
         GPIO.setup(self.D2,GPIO.OUT)
         self.p1 = GPIO.PWM(self.D1,500)
         self.p2 = GPIO.PWM(self.D2,500)
-
+        self.ser = serial.Serial('/dev/ttyACM0', 9600, timeout=0)
         
 
-        self.p1.start(100)
-        self.p2.start(100)
+        self.p1.start(60)
+        self.p2.start(65)
     def getDistance(self,sensor):
-        return input("Dose apostasi aisthitira "+sensor)
+        try:
+            distance = self.ser.readline()
+            distance = distance.decode("utf-8")
+            #print(distance)        
+            #time.sleep(0.125)
+            
+            distanceArray = distance.split(',')
+            if distanceArray[sensor].strip() == "":
+                return -1
+            else:
+                return distanceArray[sensor]
+        except:
+            return 100
+        
     def move(self):
-        frontDistance = self.getDistance(self.sensor1)
-        backDistance = self.getDistance(self.sensor2)
-        rightDistance = self.getDistance(self.sensor3)
-        leftDistance = self.getDistance(self.sensor4)
+        frontDistance = int(self.getDistance(self.sensor1))
+        print("Front Distance:",frontDistance)
+        backDistance =  100 #self.getDistance(self.sensor2)
+        rightDistance = 100 #self.getDistance(self.sensor3)
+        leftDistance = int(self.getDistance(self.sensor2))
+        print("Left Distance:",leftDistance)
 
-        if frontDistance > self.DISTANCE2STOP:
+        if (frontDistance > self.DISTANCE2STOP) or (self.currentDirection == "f" and frontDistance==-1) :
             self.currentDirection = "f"
             self.forward()                    
         else:     
-            if self.currentDirection == "f":
-                self.stop()
+            #if self.currentDirection == "f":
+                #self.stop()
                 
-            if rightDistance > self.DISTANCE2TURN:
+            if (rightDistance > self.DISTANCE2TURN) or (self.currentDirection == "r" and frontDistance==-1):
                 self.currentDirection = "r"
                 self.right()
             else:
-                if leftDistance > self.DISTANCE2TURN:
+                if (leftDistance >self.DISTANCE2TURN) or (self.currentDirection == "l" and frontDistance==-1):
                     self.currentDirection = "l"
                     self.left()
                 else:

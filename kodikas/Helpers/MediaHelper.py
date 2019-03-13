@@ -1,5 +1,7 @@
 from gtts import gTTS
 import os
+import speech_recognition as sr
+import sys
 
 class MediaHelper:
    '''def __init__(self,imagePath,mp3Path):
@@ -12,11 +14,25 @@ class MediaHelper:
       tts = gTTS(text=theString, lang='el')
       tts.save("temp.mp3")
       os.system("mpg321 temp.mp3")
+   def speech2Text(self,question=""):
+      if question!="":
+         self.playStringAsSound(question)
+      r = sr.Recognizer()
+      with sr.Microphone() as source:
+         audio = r.listen(source)
+
+      try:
+          youSaid=r.recognize_google(audio,language = 'el-GR')           
+          return youSaid
+      except sr.UnknownValueError:
+         self.playStringAsSound("Δεν σε καταλαβαίνω")
+         return ""
+      except sr.RequestError as e:
+         self.playStringAsSound("Δεν σε καταλαβαίνω")
+         return ""
 
 
 
-#a=MediaHelper("res/mp3/")
 
 
-#a.playMpe("LifeIsLife.mp3")
 

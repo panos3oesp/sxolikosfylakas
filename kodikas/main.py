@@ -10,17 +10,32 @@ persons = personModel.getAll()
 print(persons)
 
 
-mediaHelper = MediaHelper()
-mediaHelper.playStringAsSound("Καλημέρα")'''
 
+mediaHelper.playStringAsSound("Καλημέρα")'''
+mediaHelper = MediaHelper()
 moveController = MoveController()
-for i in range(1000000):
-	moveController.forward()
-for i in range(1000000):
-	moveController.reverse()
-for i in range(1000000):
-	moveController.left()
-for i in range(1000000):
-	moveController.right()
+print("stopping controller")
+moveController.stop()
+#for i in range(300000):
+#        moveController.move()
+'''mediaHelper.playStringAsSound("Παω μπροστά")
+print("forward controller")
+for i in range(300000):
+        
+        moveController.forward()
+mediaHelper.playStringAsSound("Παω πίσω")
+print("backward controller")
+for i in range(300000):
+        
+        moveController.reverse()
+mediaHelper.playStringAsSound("Παω αριστερά")
+for i in range(300000):
+        
+        moveController.left()
+mediaHelper.playStringAsSound("Παω δεξιά")
+for i in range(300000):
+        
+        moveController.right()
 
 moveController.stop()
+'''
