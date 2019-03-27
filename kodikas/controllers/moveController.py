@@ -2,15 +2,17 @@ import RPi.GPIO as GPIO
 import time
 import serial
 
+
 class MoveController:
-    def __init__ (self):
-        self.DISTANCE2STOP = 30
-        self.DISTANCE2TURN = 30
+    def __init__ (self,mediaHelper):
+        self.DISTANCE2STOP = 100
+        self.DISTANCE2TURN = 100
         self.currentDirection="f"
         self.sensor1=0
         self.sensor2=1
         self.sensor3=2
         self.sensor4=3
+        self.mediaHelper = mediaHelper
         
         self.PIN = 18
         self.PWMA1 = 6
@@ -43,46 +45,88 @@ class MoveController:
 
         self.p1.start(60)
         self.p2.start(65)
+
+        self.fm = 0
     def getDistance(self,sensor):
         try:
+            time.sleep(1)
             distance = self.ser.readline()
             distance = distance.decode("utf-8")
+            if distance.strip()=="":
+                return [-1,-1,-1,-1]
+            
             #print(distance)        
             #time.sleep(0.125)
+            print("#########")
             
             distanceArray = distance.split(',')
-            if distanceArray[sensor].strip() == "":
-                return -1
-            else:
+            if "" in distanceArray:
+                return [-1,-1,-1,-1]
+            print(distanceArray)
+            print ("sensor", sensor)
+            return distanceArray
+            if distanceArray[sensor] != "":
                 return distanceArray[sensor]
+            else:
+                return [-1,-1,-1,-1]
         except:
-            return 100
+            return [-1,-1,-1,-1]
         
     def move(self):
-        frontDistance = int(self.getDistance(self.sensor1))
-        print("Front Distance:",frontDistance)
-        backDistance =  100 #self.getDistance(self.sensor2)
-        rightDistance = 100 #self.getDistance(self.sensor3)
-        leftDistance = int(self.getDistance(self.sensor2))
-        print("Left Distance:",leftDistance)
+        distanceArray = self.getDistance(self.sensor1)
+        if(len(distanceArray)==4):
+            frontDistance = float(distanceArray[2])
+            backDistance = float(distanceArray[0])
+            rightDistance = float(distanceArray[3])
+            leftDistance = float(distanceArray[1])
+        else:
+            frontDistance = -1
+            backDistance =  -1 
+            rightDistance =  -1
+            leftDistance =  -1
 
-        if (frontDistance > self.DISTANCE2STOP) or (self.currentDirection == "f" and frontDistance==-1) :
-            self.currentDirection = "f"
-            self.forward()                    
+        self.ser.flushInput()
+        self.ser.flushOutput()
+        print("Front Distance:",frontDistance)
+        print("Right Distance:",rightDistance)
+        print("Left Distance:",leftDistance)
+        print("Back Distance:",backDistance)
+
+        if (frontDistance < self.DISTANCE2STOP) or (self.currentDirection == "f" and frontDistance==-1) :
+            if self.currentDirection != "f":
+                self.p1.start(60)
+                self.p2.start(65)
+            #self.fm+=1
+            if self.fm == 400:
+                self.stop()
+                time.sleep(1)
+                self.fm=0
+            else:
+                self.currentDirection = "f"
+                self.forward()                    
         else:     
             #if self.currentDirection == "f":
                 #self.stop()
                 
-            if (rightDistance > self.DISTANCE2TURN) or (self.currentDirection == "r" and frontDistance==-1):
+            if (rightDistance < self.DISTANCE2TURN) or (self.currentDirection == "r" and frontDistance==-1):
+                if self.currentDirection != "r":
+                    self.stop()
+                    time.sleep(1)
+                    
+                else:
+                    self.right()
                 self.currentDirection = "r"
-                self.right()
             else:
-                if (leftDistance >self.DISTANCE2TURN) or (self.currentDirection == "l" and frontDistance==-1):
-                    self.currentDirection = "l"
-                    self.left()
+                if (leftDistance < self.DISTANCE2TURN) or (self.currentDirection == "l" and frontDistance==-1):
+                    if self.currentDirection != "l":
+                        self.stop()
+                        time.sleep(1)
+                    
+                    else:
+                        self.left()
                 else:
                     self.currentDirection = "b"
-                    reverse()
+                    self.reverse()
 
 
 
@@ -95,43 +139,27 @@ class MoveController:
         GPIO.output(self.PWMB2,B2)
 
     def forward(self):
-            GPIO.output(self.PWMA1,1)
-            GPIO.output(self.PWMA2,0)
-            GPIO.output(self.PWMB1,1)
-            GPIO.output(self.PWMB2,0)
-
+        self.mediaHelper.playStringAsSound("Παω μπροστά")
+        #GPIO.output(self.PWMA1,1)
+        #GPIO.output(self.PWMA2,0)
+        #GPIO.output(self.PWMB1,1)
+        #GPIO.output(self.PWMB2,0)
+        print("f")
     def stop(self):
-            self.set_motor(0,0,0,0)
-
+        self.mediaHelper.playStringAsSound("Σταματάω")
+        #self.set_motor(0,0,0,0)
     def reverse(self):
-            self.set_motor(0,1,0,1)
+        self.mediaHelper.playStringAsSound("Κάνω πίσω")
+        #self.set_motor(0,1,0,1)
+        print("r")
 
     def left(self):
-            self.set_motor(1,0,0,1)
+        self.mediaHelper.playStringAsSound("Παω δεξιά")
+        #self.set_motor(1,0,0,1)
+        print("l")
 
     def right(self):
-            self.set_motor(0,1,1,0)
-'''
-    def set_motor(A1,A2,B1,B2):
-        GPIO.output(self.PWMA1,A1)
-        GPIO.output(self.PWMA2,A2)
-        GPIO.output(self.PWMB1,B1)
-        GPIO.output(self.PWMB2,B2)
+        self.mediaHelper.playStringAsSound("Παω αριστερά")
+        #self.set_motor(0,1,1,0)
+        print("r")
 
-   def forward():
-            GPIO.output(self.PWMA1,1)
-            GPIO.output(self.PWMA2,0)
-            GPIO.output(self.PWMB1,1)
-            GPIO.output(self.PWMB2,0)
-
-    def stop():
-            set_motor(0,0,0,0)
-
-    def reverse():
-            set_motor(0,1,0,1)
-
-    def left():
-            set_motor(1,0,0,0)
-
-    def right():
-            set_motor(0,0,1,0)'''
