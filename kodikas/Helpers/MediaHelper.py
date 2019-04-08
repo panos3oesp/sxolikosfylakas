@@ -2,6 +2,8 @@ from gtts import gTTS
 import os
 import speech_recognition as sr
 import sys
+import glob
+import random
 
 class MediaHelper:
    '''def __init__(self,imagePath,mp3Path):
@@ -30,7 +32,14 @@ class MediaHelper:
       except sr.RequestError as e:
          self.playStringAsSound("Δεν σε καταλαβαίνω")
          return ""
-
+   
+   def getRandomFile(self,pathFolder):
+      files=glob.glob(pathFolder)
+      return random.choice(files)
+   def playRandomMusic(self):
+      randomFile = self.getRandomFile("res/music/*.mp3")
+      os.system("mpg321 "+randomFile+" & sleep 10; killall mpg321")
+      
 
 
 

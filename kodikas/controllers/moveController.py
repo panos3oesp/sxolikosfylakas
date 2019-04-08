@@ -49,7 +49,7 @@ class MoveController:
         self.fm = 0
     def getDistance(self,sensor):
         try:
-            time.sleep(1)
+            #time.sleep(1)
             distance = self.ser.readline()
             distance = distance.decode("utf-8")
             if distance.strip()=="":
@@ -93,17 +93,18 @@ class MoveController:
         print("Back Distance:",backDistance)
 
         if (frontDistance < self.DISTANCE2STOP) or (self.currentDirection == "f" and frontDistance==-1) :
-            if self.currentDirection != "f":
-                self.p1.start(60)
-                self.p2.start(65)
-            #self.fm+=1
-            if self.fm == 400:
+            #if self.currentDirection != "f":
+             #   self.p1.start(60)
+              #  self.p2.start(65)
+            self.fm+=1
+            if self.fm == 800:
                 self.stop()
                 time.sleep(1)
                 self.fm=0
             else:
                 self.currentDirection = "f"
-                self.forward()                    
+                self.forward()
+                
         else:     
             #if self.currentDirection == "f":
                 #self.stop()
@@ -140,26 +141,26 @@ class MoveController:
 
     def forward(self):
         self.mediaHelper.playStringAsSound("Παω μπροστά")
-        #GPIO.output(self.PWMA1,1)
-        #GPIO.output(self.PWMA2,0)
-        #GPIO.output(self.PWMB1,1)
-        #GPIO.output(self.PWMB2,0)
+        GPIO.output(self.PWMA1,1)
+        GPIO.output(self.PWMA2,0)
+        GPIO.output(self.PWMB1,1)
+        GPIO.output(self.PWMB2,0)
         print("f")
     def stop(self):
         self.mediaHelper.playStringAsSound("Σταματάω")
-        #self.set_motor(0,0,0,0)
+        self.set_motor(0,0,0,0)
     def reverse(self):
         self.mediaHelper.playStringAsSound("Κάνω πίσω")
-        #self.set_motor(0,1,0,1)
+        self.set_motor(0,1,0,1)
         print("r")
 
     def left(self):
         self.mediaHelper.playStringAsSound("Παω δεξιά")
-        #self.set_motor(1,0,0,1)
+        self.set_motor(1,0,0,1)
         print("l")
 
     def right(self):
         self.mediaHelper.playStringAsSound("Παω αριστερά")
-        #self.set_motor(0,1,1,0)
+        self.set_motor(0,1,1,0)
         print("r")
 

@@ -1,13 +1,15 @@
-from  configuration import *
-from  models.personmodel import *
+from configuration import *
+from models.personmodel import *
 from Helpers.MediaHelper import *
 from controllers.moveController import *
+from controllers.FaceRecognition import *
 from datetime import datetime
 import random
 
 
 
-confManager =  ConfigurationManager("11:00","8:00","res/robot2.sqlite","res/images/faces/")
+confManager = ConfigurationManager("11:00","8:00","res/robot2.sqlite","res/images/faces/")
+faceRecognition = FaceRecognition(confManager)
 '''print("Hello World")
 personModel=PersonModel(confManager.dbPath)
 persons = personModel.getAll()
@@ -15,37 +17,56 @@ print(persons)
 mediaHelper.playStringAsSound("Καλημέρα")'''
 
 
-toDoChoices = ['relax', 'playmusic', 'facerecognition','move']
+toDoChoices = ['relax', 'playmusic', 'facerecognition','move','giatre']
+toDoChoices = ['facerecognition']
 mediaHelper = MediaHelper()
 katastasi = "αρχική"
-
+moveController = MoveController(mediaHelper)
+moveController.stop()
 
 while True:
     imeraEbdomadas = int(datetime.now().strftime('%w'))
     ora = int(datetime.now().strftime('%-H'))
     lepta = int(datetime.now().strftime('%-M'))
-
+    print("here")
     if imeraEbdomadas!=0 and imeraEbdomadas!=6 and ora>=18 and ora <= 22:
         if katastasi!="βοηθός":
             katastasi="βοηθός"
             mediaHelper.playStringAsSound("Μπαίνω σε κατάσταση βοηθού")
+            print("βοηθός")
         tiNaKano = random.choice(toDoChoices)
         if tiNaKano == 'relax':
-            mediaHelper.playStringAsSound("ας κοιμηθω λίο")
-            time.sleep(180)
+            print("relax")
+            mediaHelper.playStringAsSound("ας κοιμηθω λίγο")
+            time.sleep(10)
         elif tiNaKano=='playmusic':
-            mediaHelper.playStringAsSound("θα παίξω τραλαλά")
+            print("play music")
+            mediaHelper.playStringAsSound("ας παίξω μουσική")
+            mediaHelper.playRandomMusic()
         elif tiNaKano=='facerecognition':
-            mediaHelper.playStringAsSound("θα ανανωρίσω")
-
+            print("face rec")
+            mediaHelper.playStringAsSound("θα αναγνωρίσω")
+            
+            faceRecognition.recognise()
+        elif tiNaKano=='giatre':
+            print("giatre")
+            mediaHelper.playStringAsSound("γεια σου γιατρέ μου")
         else:
             mediaHelper.playStringAsSound("ας κάνω μια βολτίτσα")
+            print("move")
+            
+            moveController.stop()
+            #for i in range(3000):
+            #    moveController.move()
+            #moveController.stop()
+
                 
             
             
     else:
         if katastasi!="φύλακας":
            katastasi="φύλακας"
+           print("φύλακας")
            mediaHelper.playStringAsSound("Μπαίνω σε κατάσταση φύλακα")                
         
 
