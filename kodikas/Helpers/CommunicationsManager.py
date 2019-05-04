@@ -1,4 +1,14 @@
-#Κλάση για αποστολή email 
+#-------------------------------------------------------------------------------
+# Name:        person model
+# Purpose:     Κλάση για αποστολή email 
+#
+# Author:      μαθητες 3ι εσπερινό ΕΠΑΛ Ν. Φιλαδέφειας
+#
+# Created:     22/02/2019
+# Copyright:   (c) mathitis 2019
+# Licence:     ΜΙΤ
+#-------------------------------------------------------------------------------
+
 import smtplib
 class CommunicationsManager:
   def __init__(self,email,adminMail,mailPassword):
