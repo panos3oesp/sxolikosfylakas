@@ -1,3 +1,7 @@
+# κλαση υπεύθυνη για την αναγνώριση προσώπου
+# έχει βασιστεί στον κώδικα που δίνεται στο 
+# https://github.com/ageitgey/face_recognition
+
 import face_recognition
 import cv2
 import os
@@ -10,31 +14,34 @@ import pickle
 
 class FaceRecognition:
   def __init__(self,confManager,mediaHelper):
-    self.video_capture = cv2.VideoCapture(1)
-    self.known_face_encodings = []
-    self.known_face_names=[]
-    self.known_face_names_greeklish=[]
+    self.video_capture = cv2.VideoCapture(1)  #πάρε την on board camera και οχι την usb
+    self.known_face_encodings = [] # εδώ κρατάει τα πρόσωπα που υπάρχουν στη βάση αναλυμένα 
+    self.known_face_names=[] # εδώ κρατάει τα πρόσωπα που υπάρχουν στη βάση όσον αφόρα τα ονόματά τους
+    self.known_face_names_greeklish=[] # το ίδιο αλλά σε greeklish γιατι δεν υποστηρίζει η python στο video rendering ελληνικών
     self.confManager =  confManager
     self.mediaHelper = mediaHelper
+  #κάνε την ανάλυση των προσώπων και αποθήκευσέ τα σε αρχείο.
+  #αυτό έγινε γιατι το raspberry αδυνατούσε να το κάνει realtime.
   def faceAnalysis(self):
-    personModel=PersonModel(self.confManager.dbPath)
-    persons = personModel.getAll()
-    face_encodings = []
-    for person in persons:
-      image = face_recognition.load_image_file("res/faces/"+str(person[3]))
-      encoding = face_recognition.face_encodings(image)[0]
-      self.known_face_encodings+=[encoding]
-    with open('res/dataset_faces.dat', 'wb') as f:
-       pickle.dump(self.known_face_encodings, f)
-    
+    personModel=PersonModel(self.confManager.dbPath)  #φτιάξε το personmodel instance από τη βάση που βρίσκεται στο ταδε μονοπάτι
+    persons = personModel.getAll() #πάρε όλα τα άτομα από τη βδ
+    face_encodings = []  #όλα τα πρόσωπα
+    for person in persons: # για κάθε άτομο από τη βάση 
+      image = face_recognition.load_image_file("res/faces/"+str(person[3]))  #σήκωσε  τις εικόνες τους
+      encoding = face_recognition.face_encodings(image)[0] # φτιαξε το encoding καθε εικόνας
+      self.known_face_encodings+=[encoding] #βάλε το σε λίστα
+    with open('res/dataset_faces.dat', 'wb') as f:  #άνοιξε το αρχείο
+       pickle.dump(self.known_face_encodings, f) # πέταξε τη λιστα στο αρχειο dump ;-)
+   
+  #function που κάνει την αναγνώριση    
   def recognise(self,sendMailForUnknown=False):    
-    personModel=PersonModel(self.confManager.dbPath)
-    persons = personModel.getAll()
-    face_locations = []
-    face_encodings = []
-    face_names = []
+    personModel=PersonModel(self.confManager.dbPath) #φτιαξε instance από το personModel
+    persons = personModel.getAll() #πάρε όλα τα άτομα
+    face_locations = [] #συγκρατεί τις θέσεις των ατομων στην κάθε εικόνα
+    face_encodings = [] # οι αναλύσεις των προσώπων
+    face_names = [] #τα ονόματα 
     
-    camera = PiCamera()
+    camera = PiCamera() #ξεκίνα την κάμερα
     camera.resolution = (1024, 768)
     for person in persons:
       print("res"+os.path.sep+"faces"+os.path.sep+str(person[3]))              
