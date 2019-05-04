@@ -1,3 +1,7 @@
+# κλάση για να παίζει ήχους 
+# text 2 speech
+# speech to text
+
 from gtts import gTTS
 import os
 import speech_recognition as sr
@@ -12,11 +16,12 @@ class MediaHelper:
 '''
    def __init__(self):
       self.imagePath=""
+   # παίξει string σαν ηχο μεσω google text2speech
    def playStringAsSound(self,theString):
-      tts = gTTS(text=theString, lang='el')
-      tts.save("temp.mp3")
-      os.system("mpg321 temp.mp3")
-   def speech2Text(self,question=""):
+      tts = gTTS(text=theString, lang='el') #κανε μετατροπή el για ελληνικά
+      tts.save("temp.mp3") #φτιάξε προσωρινό αρχείο
+      os.system("mpg321 temp.mp3") #παίξε προσωρινό αρχείο
+   def speech2Text(self,question=""):  #ομιλία σε text
       if question!="":
          self.playStringAsSound(question)
       r = sr.Recognizer()
@@ -32,10 +37,12 @@ class MediaHelper:
       except sr.RequestError as e:
          self.playStringAsSound("Δεν σε καταλαβαίνω")
          return ""
-   
+   # επιστρέφει ένα τυχαίο αρχείο από έναν φάκελο 
+   # για να λαμβάνει το ρομπότ και να παίζει τυχαίο mp3
    def getRandomFile(self,pathFolder):
       files=glob.glob(pathFolder)
       return random.choice(files)
+   #παίζει τυχαίο κομμάτι mp3 από φάκελο
    def playRandomMusic(self):
       randomFile = self.getRandomFile("res/music/*.mp3")
       os.system("mpg321 "+randomFile+" & sleep 10; killall mpg321")
