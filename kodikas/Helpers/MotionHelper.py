@@ -1,3 +1,5 @@
+#κλαση υπεύθυνη για την κίνηση του ρομπότ
+# δε χρειάζεται πια, θα σβηστεί
 import RPi.GPIO as GPIO #Import GPIO library
 import time #Import time library 
 
@@ -10,7 +12,7 @@ class MotionHelper:
         self.RIGHTSENSOR=29
         #GPIO.setmode(GPIO.BCM) 
 
-
+    #dummy function θα σβηστεί
     def somethingMoved(self):
         if self.somethingMovedInSensor(self.FRONTSENSOR):
             return "FrontMovement"
