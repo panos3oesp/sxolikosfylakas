@@ -1,13 +1,15 @@
 #-------------------------------------------------------------------------------
 # Name:        DbManager
-# Purpose:
+# Purpose:     #συνδέεται με sqlite3 και τρέχει wql
 #
-# Author:      3o Εσπερινο ΕΠΑΛ
+# Author:      μαθητες 3ι εσπερινό ΕΠΑΛ Ν. Φιλαδέφειας
 #
 # Created:     22/02/2019
+# Copyright:   (c) mathitis 2019
+# Licence:     ΜΙΤ
 #-------------------------------------------------------------------------------
 
-#συνδέεται με sqlite3 και τρέχει wql
+
 import sqlite3
 print (sqlite3.sqlite_version)
 from sqlite3 import Error
