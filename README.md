@@ -170,7 +170,7 @@ Helpers περιέχει βοηθιτικές κλάσεις υπεύθυνες 
 </ul>
 <img class="size-medium aligncenter" src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/explain_electronics.jpg?raw=true" width="1024" height="683" />
 <h2><a id="user-content-σχέδιο-τομή" class="anchor" href="https://github.com/panos3oesp/sxolikosfylakas/blob/master/README.md#%CF%83%CF%87%CE%AD%CE%B4%CE%B9%CE%BF-%CF%84%CE%BF%CE%BC%CE%AE"></a>Σχέδιο Τομή</h2>
-<a href="https://github.com/panos3oesp/sxolikosfylakas/blob/master/designB2.svg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/panos3oesp/sxolikosfylakas/raw/master/images/designB2.svg?sanitize=true" /></a>
+<a href="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/designB2.png?raw=true" target="_blank" rel="noopener noreferrer"><img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/designB2.png?raw=true" /></a>
 <h2><a id="user-content-κάτοψη" class="anchor" href="https://github.com/panos3oesp/sxolikosfylakas/blob/master/README.md#%CE%BA%CE%AC%CF%84%CE%BF%CF%88%CE%B7"></a>Κάτοψη</h2>
 <a href="https://github.com/panos3oesp/sxolikosfylakas/blob/master/designA.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/panos3oesp/sxolikosfylakas/raw/master/designA.png" /></a>
 
