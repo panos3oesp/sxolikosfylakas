@@ -7,6 +7,7 @@ Helpers/
 controllers/
 	__init__.py
 	moveController.py
+	faceRecognition.py
 	
 models/
     __init__.py
