@@ -1,12 +1,12 @@
 #-------------------------------------------------------------------------------
-# Name:        module1
-# Purpose:
+# Name:        person model
+# Purpose:     κλάση που παίρνει από τη βάση δεδομένων όλα τα πρόσωπα, τα ονόματα και τα image paths 
 #
-# Author:      mathitis
+# Author:      μαθητες 3ι εσπερινό ΕΠΑΛ Ν. Φιλαδέφειας
 #
 # Created:     22/02/2019
 # Copyright:   (c) mathitis 2019
-# Licence:     <your licence>
+# Licence:     ΜΙΤ
 #-------------------------------------------------------------------------------
 #from Helpers.dbmanager import *
 from  Helpers.DbManager import *
