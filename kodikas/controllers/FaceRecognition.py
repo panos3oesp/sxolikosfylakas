@@ -42,28 +42,30 @@ class FaceRecognition:
     face_names = [] #τα ονόματα 
     
     camera = PiCamera() #ξεκίνα την κάμερα
-    camera.resolution = (1024, 768)
-    for person in persons:
-      print("res"+os.path.sep+"faces"+os.path.sep+str(person[3]))              
-      self.known_face_names+=[str(person[1])+" "+str(person[2])]
-      self.known_face_names_greeklish +=[str(person[6])]
+    camera.resolution = (1024, 768) # θέσε την ανάλυση 
+    for person in persons: # για κάθε άτομο 
+      print("res"+os.path.sep+"faces"+os.path.sep+str(person[3]))    #τυπωσε τα άτομα στην οθόνη          
+      self.known_face_names+=[str(person[1])+" "+str(person[2])]      #βάλε στα γνωστά ονόματα τα ονοματεπώνυμα από τη βάση δεδομένων
+      self.known_face_names_greeklish +=[str(person[6])]   #το ίδιο σε greeklish
 
-    with open('res/dataset_faces.dat', 'rb') as f:
+    with open('res/dataset_faces.dat', 'rb') as f:  #πάρε τα αναλυμένα πρόσωπα και βάλτα σε λίστα από το αρχείο
       self.known_face_encodings = pickle.load(f)
     self.process_this_frame = True
+    
+    #για 60 δεύτερα κάνε αναγνώριση
     t_end = time.time() + 60 * 1
     while time.time() < t_end:
       # Grab a single frame of video
       #ret, frame = self.video_capture.read()
       
-      rawCapture = PiRGBArray(camera)
-      time.sleep(0.1)
-      camera.capture(rawCapture, format="bgr")
-      frame = rawCapture.array
+      rawCapture = PiRGBArray(camera) #πάρε εικόνα από την κάμετα 
+      time.sleep(0.1) #στάσου λίγο 
+      camera.capture(rawCapture, format="bgr")  #μετέτρεψέ τη σε bgr format
+      frame = rawCapture.array 
       
       
-      # Resize frame of video to 1/4 size for faster face recognition processing
-      small_frame = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25)
+      
+      small_frame = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25) #μείωσε την εικόνα για να είναι γρήγορο
       
       
       # Convert the image from BGR color (which OpenCV uses) to RGB color (which face_recognition uses)
@@ -76,35 +78,40 @@ class FaceRecognition:
 
         face_names = []
         
+        #για καθε ένα από τα αναλυμένα πρόσωπα ψάξε τα στην εικόνα από την κάμερα
         for face_encoding in face_encodings:
           
-          # See if the face is a match for the known face(s)
+          # δες αν υπάρχου ίδια πρόσωπα
           matches = face_recognition.compare_faces(self.known_face_encodings, face_encoding)
         
-          name = "Unknown"
+          name = "Unknown" #αρχικά το άτομο ειναι άγνωστο
           
+          #αν βρήκε κάτι
           if True in matches:
-            
+            #που το βρήκε; σε ποιο σημείο της λίστας;
             first_match_index = matches.index(True)
-            greekName = self.known_face_names[first_match_index]
-            name = self.known_face_names_greeklish[first_match_index]
-            self.mediaHelper.playStringAsSound("Γεια σου, "+greekName)
-            print(greekName)
-          face_names.append(name)
-          if(sendMailForUnknown  and (name=="Unknown"   or str(person[4]=="0"))):
+            greekName = self.known_face_names[first_match_index]  #πάρε το όνομα από τα γνωστά άτομα 
+            name = self.known_face_names_greeklish[first_match_index] #βάλε στον κατάλογο με τα ονοματα που θα τυπωθούν στη οθόνη
+            self.mediaHelper.playStringAsSound("Γεια σου, "+greekName) #χαιρέτα τον με ήχο google text to speech
+            print(greekName) #τύπωσέ το να δούμε
+          face_names.append(name) #πρόσθεσε το στη λίστα
+          if(sendMailForUnknown  and (name=="Unknown"   or str(person[4]=="0"))): #αν εκτός ωραρίου και είτε μαθητής ή άγνωστος
+            #πες συναγερμός 
             self.mediaHelper.playStringAsSound("Συναγερμός! Προσοχή, Προσοχή! Συναγερμός! Προσοχή, Προσοχή! Συναγερμός! Συναγερμός! Συναγερμός! Προσοχή, Προσοχή!")
             
 
       self.process_this_frame = not self.process_this_frame
 
-      # Display the results
+      # τύπωσε στην οθόνη τα ονόματα σε greeklish
       for (top, right, bottom, left), name in zip(face_locations, face_names):
+        #πάρε τις θέσεις
         # Scale back up face locations since the frame we detected in was scaled to 1/4 size
         top *= 4
         right *= 4
         bottom *= 4
         left *= 4
 
+        #φτιάξε ένα τετράγωνο
         # Draw a box around the face
         cv2.rectangle(frame, (left, top), (right, bottom), (0, 0, 255), 2)
         print("printing rectangle")
@@ -112,11 +119,11 @@ class FaceRecognition:
         # Draw a label with a name below the face
         cv2.rectangle(frame, (left, bottom - 35), (right, bottom), (0, 0, 255), cv2.FILLED)
         font = cv2.FONT_HERSHEY_DUPLEX
-        
+        #γράψε κείμενο σε greeklish
         cv2.putText(frame, name, (left + 6, bottom - 6), font, 1.0, (255, 255, 255), 1)
 
 
-      # Display the resulting image
+      # δείξε την εικόνα σαν βίντεο
       cv2.imshow('Video', frame)
       
       # Hit 'q' on the keyboard to quit!
