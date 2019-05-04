@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg3977"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="designB2.svg">
+  <defs
+     id="defs3971">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4864"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#00fb00;stroke-width:1pt;stroke-opacity:1;fill:#008000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4861"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#00fb00;stroke-width:1pt;stroke-opacity:1;fill:#008000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-7"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4861-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#e40000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4864-7"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#e40000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="397.73165"
+     inkscape:cy="310.29416"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3974">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-87)">
+    <rect
+       id="rect3713"
+       width="174.13846"
+       height="12.561893"
+       x="60.152493"
+       y="269.55212"
+       style="fill:#ffccaa;stroke-width:0.09109519" />
+    <ellipse
+       style="fill:#808080;stroke-width:0.26458332"
+       id="path3994"
+       cx="218.84822"
+       cy="282.63705"
+       rx="14.363094"
+       ry="15.119047" />
+    <rect
+       style="fill:#999999;stroke-width:0.26458332"
+       id="rect3999"
+       width="5.6696429"
+       height="21.166666"
+       x="71.4375"
+       y="268.27353" />
+    <ellipse
+       style="fill:#808080;stroke-width:0.26458332"
+       id="path4001"
+       cx="69.925598"
+       cy="287.36188"
+       rx="9.0714283"
+       ry="9.6383924" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="78.968254"
+       y="289.90628"
+       id="text4005"><tspan
+         sodipodi:role="line"
+         id="tspan4003"
+         x="78.968254"
+         y="289.90628"
+         style="font-size:6.3499999px;fill:#008000;stroke-width:0.26458332">Ελεύθερη Ρόδα</tspan></text>
+    <circle
+       style="fill:#000000;stroke-width:0.26458332"
+       id="path4007"
+       cx="218.65921"
+       cy="282.63705"
+       r="9.8273811" />
+    <circle
+       style="fill:#000000;stroke-width:0.17299679"
+       id="path4007-5"
+       cx="69.925606"
+       cy="287.55087"
+       r="6.4255953" />
+    <rect
+       style="fill:#008000;stroke-width:0.33277819"
+       id="rect4024"
+       width="8.2853556"
+       height="149.67093"
+       x="140.04924"
+       y="120.11826" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="170.51796"
+       y="192.76489"
+       id="text4028"><tspan
+         sodipodi:role="line"
+         id="tspan4026"
+         x="170.51796"
+         y="192.76489"
+         style="fill:#008000;stroke-width:0.26458332;font-size:5.64444444px">1,5m</tspan></text>
+    <rect
+       style="fill:#ff0000;stroke-width:0.26458332"
+       id="rect4030"
+       width="19.510675"
+       height="11.759859"
+       x="137.91107"
+       y="108.30772" />
+    <rect
+       style="fill:#ff0000;stroke-width:0.26458332"
+       id="rect4032"
+       width="8.2853556"
+       height="5.3453903"
+       x="155.55086"
+       y="110.98042" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="137.91107"
+       y="116.05853"
+       id="text4036"><tspan
+         sodipodi:role="line"
+         id="tspan4034"
+         x="137.91107"
+         y="116.05853"
+         style="font-size:5.64444447px;stroke-width:0.26458332">Κάμερα</tspan></text>
+    <rect
+       style="fill:#0000ff;stroke-width:0.23090771"
+       id="rect4038"
+       width="37.150463"
+       height="67.351921"
+       x="127.22029"
+       y="150.5363" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="131.22932"
+       y="160.69255"
+       id="text4042"><tspan
+         sodipodi:role="line"
+         id="tspan4040"
+         x="131.22932"
+         y="160.69255"
+         style="font-size:5.64444447px;stroke-width:0.26458332">Raspberry</tspan></text>
+    <rect
+       style="fill:#ffff00;stroke-width:0.26458332"
+       id="rect4044"
+       width="24.588791"
+       height="37.417728"
+       x="133.10023"
+       y="169.51244" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="145.54044"
+       y="178.86687"
+       id="text4048"><tspan
+         sodipodi:role="line"
+         id="tspan4046"
+         x="145.54044"
+         y="178.86687"
+         style="font-size:4.23333311px;text-align:center;text-anchor:middle;stroke-width:0.26458332">Ελεγκτής</tspan><tspan
+         sodipodi:role="line"
+         x="145.54044"
+         y="192.09604"
+         style="font-size:4.23333311px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan4050">Μοτέρ</tspan></text>
+    <path
+       style="fill:#008000;stroke:#00fb00;stroke-width:0.2747654;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="m 168.65354,121.12743 0.25473,144.10456 v 2.11032"
+       id="path4054"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:#ff0000;stroke:#e40000;stroke-width:0.18914719;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart-7);marker-end:url(#Arrow1Lend-6)"
+       d="m 120.88514,108.53086 0.36419,47.76456 v 0.69948"
+       id="path4054-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="122.67672"
+       y="133.16379"
+       id="text6232"><tspan
+         sodipodi:role="line"
+         id="tspan6230"
+         x="122.67672"
+         y="133.16379"
+         style="font-size:5.64444447px;fill:#ff0000;stroke-width:0.26458332">0,15m</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6234"
+       style="fill:#ff0000;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px;"><flowRegion
+         id="flowRegion6236"
+         style="fill:#ff0000;"><rect
+           id="rect6238"
+           width="41.416256"
+           height="169.70563"
+           x="186.87822"
+           y="665.41144"
+           style="fill:#ff0000;" /></flowRegion><flowPara
+         id="flowPara6240" /></flowRoot>    <rect
+       style="fill:#008000;stroke:#e40000;stroke-width:0.32327226;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6242"
+       width="69.164536"
+       height="5.287118"
+       x="113.3514"
+       y="136.40016" />
+    <path
+       style="fill:#00ffff;stroke:#e40000;stroke-width:0.20385991;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 177.43102,121.37825 v 14.48416 h 12.87072 l -9.66679,-6.95437 10.47257,-7.52979 z"
+       id="rect6244"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="168.11253"
+       y="118.73123"
+       id="text6264"><tspan
+         sodipodi:role="line"
+         x="168.11253"
+         y="118.73123"
+         style="font-size:5.64444447px;fill:#00ffff;stroke-width:0.26458332"
+         id="tspan6270">Αισθητήρας Κίνησης</tspan></text>
+    <path
+       style="fill:#00ffff;stroke:#e40000;stroke-width:0.20385991;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 118.332,136.19121 0.12917,-14.48358 -12.87021,-0.11478 9.60439,7.0403 -10.5393,7.4361 z"
+       id="rect6244-6"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke-width:0.96499997;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect4740"
+       width="56.393867"
+       height="24.856066"
+       x="118.13313"
+       y="230.71716" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="129.62572"
+       y="242.20973"
+       id="text4744"><tspan
+         sodipodi:role="line"
+         id="tspan4742"
+         x="129.62572"
+         y="242.20973"
+         style="font-size:8.46666622px;stroke-width:0.26458332">Arduino</tspan></text>
+  </g>
+</svg>
