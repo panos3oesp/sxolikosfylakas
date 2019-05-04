@@ -1,5 +1,5 @@
 #-------------------------------------------------------------------------------
-# Name:        CommunicationsManager
+# Name:        FaceRecognition
 # Purpose:     κλαση υπεύθυνη για την αναγνώριση προσώπου
 # έχει βασιστεί στον κώδικα που δίνεται στο 
 # https://github.com/ageitgey/face_recognition
