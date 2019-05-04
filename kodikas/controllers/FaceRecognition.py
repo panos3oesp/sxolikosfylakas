@@ -135,6 +135,7 @@ class FaceRecognition:
     self.video_capture.release()
     cv2.destroyAllWindows()
 
+  #παλιά μέθοδος - να σβηστεί
   def justEncode(self):
     personModel=PersonModel(self.confManager.dbPath)
     persons = personModel.getAll()
