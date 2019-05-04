@@ -1,3 +1,14 @@
+#-------------------------------------------------------------------------------
+# Name:        sxolikos fylakas
+# Purpose:     κεντρικό πρόγραμμα για το ρομποτ ΛΕΛΑ
+#
+# Author:      μαθητες 3ι εσπερινό ΕΠΑΛ Ν. Φιλαδέφειας
+#
+# Created:     22/02/2019
+# Copyright:   (c) mathitis 2019
+# Licence:     ΜΙΤ
+#-------------------------------------------------------------------------------
+
 from configuration import *
 from models.personmodel import *
 from Helpers.MediaHelper import *
