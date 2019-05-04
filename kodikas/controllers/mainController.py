@@ -1,3 +1,4 @@
+#παλιος controller, θα σβηστεί
 import random
 class MainController:
     toDoChoices = ['relax', 'playmusic', 'facerecognition']
