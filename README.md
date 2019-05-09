@@ -1,18 +1,3 @@
-<b>Αναγνώριση Προσώπων - Παίξιμο τυχαίου Τραγουδιού από φάκελο - Κατάσταση Ξεκούρασης: </b><br />
-<a href="https://youtu.be/9Yb0n_LDOAg" rel="nofollow">[youtube https://youtu.be/9Yb0n_LDOAg&amp;w=1280&amp;h=753]</a>
-
-<b>Συναγερμός </b><br />
-<a href="https://youtu.be/_wxA05xeLio" rel="nofollow">[youtube https://youtu.be/_wxA05xeLio&amp;w=1280&amp;h=753]</a>
-
-<b>Κίνηση στον Χώρο:</b><br />
-<a href="https://www.youtube.com/watch?v=BEWxxaO37NA" rel="nofollow">[youtube https://www.youtube.com/watch?v=BEWxxaO37NA&amp;w=1280&amp;h=753]</a>
-
-
-<b>Δοκιμές με την ομιλία:</b><br />
-
-<a href="https://www.youtube.com/watch?v=L-_xVFDmJX4" rel="nofollow">[youtube https://www.youtube.com/watch?v=rRDHxajtudI&amp;w=1280&amp;h=753]</a>
-
-
 <h2>Περιγραφή:</h2>
 Πρόκειται για ένα αυτόνομο ρομπότ που αναγνωρίζει ανθρώπινα πρόσωπα και σε
 περίπτωση εισβολής μη αναγνωρίσιμου προσώπου τις ώρες που το σχολείο είναι κλειστό
@@ -20,7 +5,7 @@
 Το ρομπότ λειτουργεί σε δύο καταστάσεις:
 <ol>
  	<li><strong>Κατάσταση Σχολικού φύλακα, σε ώρες εκτός σχολικού ωραρίου</strong></li>
- 	<li><strong>Κατάσταση ηρεμίας σε ώρες εντός σχολικού ωραρίου</strong></li>
+ 	<li><strong>Κατάσταση ψυχαγωγίας (χαιρετισμός - αναγνώριση,μουσική, βόλτες), σε ώρες εντός σχολικού ωραρίου</strong></li>
 </ol>
 <strong>Στην 1 η κατάσταση</strong> (δηλ. τις ώρες εκτός σχολικού ωραρίου), το ρομπότ θα κινείται στον
 χώρο του σχολείου ανιχνεύει για πρόσωπα και στην περίπτωση μη αναγνωρίσιμου
@@ -30,11 +15,32 @@
 καταστάσεις όπως: <strong>ηρεμία</strong>,<strong> κίνηση στο χώρο του σχολείου</strong>, <strong>αναγνώριση και χαιρετισμός</strong>
 <strong>ονομαστικά προσώπων που συναντάει</strong>, <strong>παίξιμο μουσικής</strong>. Τα παραπάνω γίνονται <strong>τυχαία</strong>. Κάθε λίγο αλλάζει υποκατάσταση.
 
+<a href="https://youtu.be/2sGnoeIhILc" rel="nofollow">[youtube https://youtu.be/2sGnoeIhILc&amp;w=1280&amp;h=753]</a>
+
+
 <img class="size-medium aligncenter" src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/robotDesc1.png?raw=true" width="531" height="229" />
 
 &nbsp;
 
 <img class="size-medium aligncenter" src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/robotDesc2.png?raw=truehttp://" width="591" height="326" />
+
+<b>Αναγνώριση Προσώπων - Παίξιμο τυχαίου Τραγουδιού από φάκελο - Κατάσταση Ξεκούρασης: </b>
+<a href="https://youtu.be/9Yb0n_LDOAg" rel="nofollow">[youtube https://youtu.be/9Yb0n_LDOAg&amp;w=1280&amp;h=753]</a>
+
+<b>Συναγερμός </b>
+<a href="https://youtu.be/_wxA05xeLio" rel="nofollow">[youtube https://youtu.be/_wxA05xeLio&amp;w=1280&amp;h=753]</a>
+
+<b>Κίνηση στον Χώρο:</b>
+<a href="https://www.youtube.com/watch?v=BEWxxaO37NA" rel="nofollow">[youtube https://www.youtube.com/watch?v=BEWxxaO37NA&amp;w=1280&amp;h=753]</a>
+
+<b>Δοκιμές με την ομιλία:</b>
+
+<a href="https://www.youtube.com/watch?v=L-_xVFDmJX4" rel="nofollow">[youtube https://www.youtube.com/watch?v=rRDHxajtudI&amp;w=1280&amp;h=753]</a>
+<h2>Αποθετήρια &amp; OER CANVAS</h2>
+Αποθετήριο στο github: <a href="https://github.com/panos3oesp/sxolikosfylakas" target="_blank" rel="noopener">πατήστε εδώ</a>
+Project OER CANVAS: <a href="https://github.com/panos3oesp/sxolikosfylakas/raw/master/OER%20PROJECT.pdf" target="_blank" rel="noopener">πατήστε εδώ</a>
+
+&nbsp;
 
 &nbsp;
 <h2><img class="alignnone " src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/1.jpg?raw=true" width="296" height="444" /> <img class="alignnone " src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/8.jpg?raw=true" width="296" height="444" /> <img class="alignnone " src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/2.jpg?raw=true" width="296" height="444" /> <img class="alignnone " src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/3.jpg?raw=true" width="296" height="444" /></h2>
@@ -47,8 +53,8 @@ Helpers περιέχει βοηθιτικές κλάσεις υπεύθυνες 
  	<li>Views/ (κλάσεις μόνο για προβολή διαγνωστικών, αργότερα προβολή εκφράσεων κτλ σε οθόνη)</li>
  	<li>Controller/ (κλάσεις σχετικά με τον έλεγχο των λειτουργιών του ρομπότ)</li>
  	<li>Helpers/ (βοηθητικές κλάσεις που διευκολύνουν την εφαρμογή ως διεπαφή και όχι μόνο)</li>
- 	<li>res/ (αρχεία όπως εικόνες, βάση δεδομένων). 
-   Ο φάκελος faces έχει τις εικόνες από τα πρόσωπα. Το αρχείο dataset_faces.dat περιέχει τα πρόσωπα αναλυμένα. Το αρχείο robot2.sqlite περιέχει τα στοιχεία των ατόμων που γνωρίζει το σύστημα και τα μονοπάτια των φωτογραφιών.<ul>
+ 	<li>res/ (αρχεία όπως εικόνες, βάση δεδομένων). Ο φάκελος faces έχει τις εικόνες από τα πρόσωπα. Το αρχείο dataset_faces.dat περιέχει τα πρόσωπα αναλυμένα. Το αρχείο robot2.sqlite περιέχει τα στοιχεία των ατόμων που γνωρίζει το σύστημα και τα μονοπάτια των φωτογραφιών.
+<ul>
  	<li>images/ (εικόνες)</li>
  	<li>robot.db (βάση δεδομένων)</li>
 </ul>
@@ -81,74 +87,65 @@ Helpers περιέχει βοηθιτικές κλάσεις υπεύθυνες 
 <th>α/α</th>
 <th>Όνομα</th>
 <th>τεμάχια</th>
+<th>κόστος</th>
 </tr>
 <tr>
 <td>1</td>
 <td><a href="https://grobotronics.com/pir-sensor-module.html" rel="nofollow">Αισθητήρας Ανίχνευσης Κίνησης HC-SR501</a></td>
 <td>2</td>
+<td>5.60</td>
 </tr>
 <tr>
 <td>2</td>
-<td><a href="https://grobotronics.com/waveshare-sound-sensor.html" rel="nofollow">Waveshare Αισθητήρας Ήχου</a></td>
-<td>1</td>
+<td><a href="https://grobotronics.com/infrared-proximity-sensor-sharp-gp2y0a21yk.html" rel="nofollow">Αισθητήρας Απόστασης Υπέρυθρος - Sharp GP2Y0A21YK</a></td>
+<td>4</td>
+<td>47,60</td>
 </tr>
 <tr>
 <td>3</td>
-<td><a href="https://grobotronics.com/waveshare-infrared-reflective-sensor.html" rel="nofollow">Waveshare Υπέρυθρος Αισθητήρας Εμποδίων</a></td>
+<td><a href="https://grobotronics.com/power-supply-5v-2.5a-raspberry-pi-official-black.html" rel="nofollow">Τροφοδοτικό 5V 2.5A για Raspberry Pi Μαύρο (Γνήσιο)</a></td>
 <td>1</td>
+<td>9.90</td>
 </tr>
 <tr>
 <td>4</td>
-<td><a href="https://grobotronics.com/infrared-proximity-sensor-sharp-gp2y0a21yk.html" rel="nofollow">Αισθητήρας Απόστασης Υπέρυθρος - Sharp GP2Y0A21YK</a></td>
-<td>4</td>
+<td><a href="https://grobotronics.com/micro-sd-16gb-pre-loaded-with-noobs.html" rel="nofollow">Micro SD 16GB - Pre-Loaded with NOOBS</a></td>
+<td>1</td>
+<td>13.90</td>
 </tr>
 <tr>
 <td>5</td>
-<td><a href="https://grobotronics.com/power-supply-5v-2.5a-raspberry-pi-official-black.html" rel="nofollow">Τροφοδοτικό 5V 2.5A για Raspberry Pi Μαύρο (Γνήσιο)</a></td>
+<td><a href="https://grobotronics.com/raspberry-pi-heatsink-silver-set-of-3.html" rel="nofollow">Raspberry Pi Heatsink - Black (Set of 2)</a></td>
 <td>1</td>
+<td>1.20</td>
 </tr>
 <tr>
 <td>6</td>
-<td><a href="https://grobotronics.com/micro-sd-16gb-pre-loaded-with-noobs.html" rel="nofollow">Micro SD 16GB - Pre-Loaded with NOOBS</a></td>
+<td><a href="https://grobotronics.com/raspberry-pi-camera-module-noir-v2-8mp-1080p.html" rel="nofollow">Raspberry Pi Camera Module  (8MP,1080p)</a></td>
 <td>1</td>
+<td>29.90</td>
 </tr>
 <tr>
 <td>7</td>
-<td><a href="https://grobotronics.com/raspberry-pi-heatsink-silver-set-of-3.html" rel="nofollow">Raspberry Pi Heatsink - Black (Set of 2)</a></td>
+<td><a href="https://grobotronics.com/waveshare-rpi-motor-driver-hat.html" rel="nofollow">Waveshare RPi Motor Driver HAT</a></td>
 <td>1</td>
+<td>34.90</td>
 </tr>
 <tr>
 <td>8</td>
-<td><a href="https://grobotronics.com/raspberry-pi-camera-module-noir-v2-8mp-1080p.html" rel="nofollow">Raspberry Pi Camera Module  (8MP,1080p)</a></td>
+<td><a href="https://grobotronics.com/raspberry-pi-3-model-b-el.html" rel="nofollow">Raspberry Pi 3 - Model B+</a></td>
 <td>1</td>
+<td>41.90</td>
 </tr>
 <tr>
 <td>9</td>
-<td><a href="https://grobotronics.com/raspberry-pi-3-case-red-and-white-compatible.html" rel="nofollow">Raspberry Pi 3 Case Red &amp; White - Compatible</a></td>
-<td>1</td>
-</tr>
-<tr>
-<td>10</td>
-<td><a href="https://grobotronics.com/waveshare-rpi-motor-driver-hat.html" rel="nofollow">Waveshare RPi Motor Driver HAT</a></td>
-<td>1</td>
-</tr>
-<tr>
-<td>11</td>
-<td><a href="https://grobotronics.com/raspberry-pi-3-model-b-el.html" rel="nofollow">Raspberry Pi 3 - Model B+</a></td>
-<td>1</td>
-</tr>
-<tr>
-<td>12</td>
-<td><a href="https://grobotronics.com/servo-mini-3.5kg.cm-feetech-ft1117m.html" rel="nofollow">Κινητήρες Servo</a></td>
-<td>1</td>
-</tr>
-<tr>
-<td>13</td>
-<td>ΚΕΡΑΙΑ WIFI για το raspberry</td>
-<td>1</td>
+<td>Μπαταρίες 6V</td>
+<td>2</td>
+<td>11,20</td>
 </tr>
 </tbody>
 </table>
+<b>Το συνολικό κόστος είναι 196,10 Ευρώ.</b>
 <h2>Ηλεκτρονικό Κύκλωμα</h2>
 <img class="size-medium aligncenter" src="https://github.com/panos3oesp/sxolikosfylakas/raw/master/ilektroniko_kykloma_big.png" width="600" height="744" />
 
@@ -169,10 +166,10 @@ Helpers περιέχει βοηθιτικές κλάσεις υπεύθυνες 
 </li>
 </ul>
 <img class="size-medium aligncenter" src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/explain_electronics.jpg?raw=true" width="1024" height="683" />
-<h2><a id="user-content-σχέδιο-τομή" class="anchor" href="https://github.com/panos3oesp/sxolikosfylakas/blob/master/README.md#%CF%83%CF%87%CE%AD%CE%B4%CE%B9%CE%BF-%CF%84%CE%BF%CE%BC%CE%AE"></a>Σχέδιο Τομή</h2>
-<a href="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/designB2.png?raw=true" target="_blank" rel="noopener noreferrer"><img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/designB2.png?raw=true" /></a>
+<h2><a id="user-content-σχέδιο-τομή" class="anchor" href="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/designB2.png?raw=true"></a>Σχέδιο Τομή</h2>
+<a href="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/designB2.png?raw=true" target="_blank" rel="noopener noreferrer"><img class="aligncenter" src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/designB2.png?raw=true" /></a>
 <h2><a id="user-content-κάτοψη" class="anchor" href="https://github.com/panos3oesp/sxolikosfylakas/blob/master/README.md#%CE%BA%CE%AC%CF%84%CE%BF%CF%88%CE%B7"></a>Κάτοψη</h2>
-<a href="https://github.com/panos3oesp/sxolikosfylakas/blob/master/designA.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/panos3oesp/sxolikosfylakas/raw/master/designA.png" /></a>
+<a href="https://github.com/panos3oesp/sxolikosfylakas/blob/master/designA.png" target="_blank" rel="noopener noreferrer"><img class="aligncenter" src="https://github.com/panos3oesp/sxolikosfylakas/raw/master/designA.png" /></a>
 
 &nbsp;
 <h2>Καταμερισμός Εργασιών</h2>
@@ -236,20 +233,50 @@ Helpers περιέχει βοηθιτικές κλάσεις υπεύθυνες 
 </tr>
 </tbody>
 </table>
+<h2>Υλικό από τις φάσεις υλοποίησης</h2>
+<h3>Φάση 1 - Σχεδιασμός - Εργασία σε ομάδες</h3>
+<a href="https://www.youtube.com/watch?v=Pg-1URzjuto" rel="nofollow">[youtube https://www.youtube.com/watch?v=Pg-1URzjuto&amp;w=1280&amp;h=753]</a>
+
+<b>εικόνες:</b>
+<img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/sxed1.jpg?raw=true" width="200" /> <img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/sxed2.jpg?raw=true" width="200" /> <img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/sxed3.jpg?raw=true" width="200" />
+<h3></h3>
+<h3>Φάση 2 - Σασί</h3>
+<b>βίντεο:</b> <a href="http://doricsoft.com/robot/fasi1.mp4" target="_blank" rel="noopener">εδώ</a>
+<b>εικόνες:</b>
+<img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/skeletos1.jpg?raw=true" width="200" /> <img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/skeletos2.jpg?raw=true" width="200" /> <img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/skeletos3.jpg?raw=true" width="200" /> <img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/skeletos4.jpg?raw=true" width="200" />
+<h3>Φάση 3 - Raspberry</h3>
+<b>βίντεο:</b> <a href="http://doricsoft.com/robot/fasi2.mp4" target="_blank" rel="noopener">εδώ</a>
+<b>εικόνες:</b>
+<img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/ras1.jpg?raw=true" width="200" /> <img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/ras2.jpg?raw=true" width="200" /> <img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/ras3.jpg?raw=true" width="200" /> <img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/ras4.jpg?raw=true" width="200" />
+<h3>Φάση 4 - Arduino</h3>
+<b>βίντεο:</b> <a href="http://doricsoft.com/robot/fasi3.mp4" target="_blank" rel="noopener">εδώ</a>
+<b>εικόνες:</b>
+<img src="http://doricsoft.com/robot/fasi3_1.jpg" />
+<h3>Φάση 5 - Moter</h3>
+<b>βίντεο:</b>
+Δοκιμές χωρίς ελεγκτές:
+<a href="https://www.youtube.com/watch?v=PikkqNtC3kI" rel="nofollow">[youtube https://www.youtube.com/watch?v=PikkqNtC3kI&amp;w=1280&amp;h=753]</a>
+Πρώτες Δοκιμές με motor controller:
+<a href="https://www.youtube.com/watch?v=L-_xVFDmJX4" rel="nofollow">[youtube https://www.youtube.com/watch?v=L-_xVFDmJX4&amp;w=1280&amp;h=753]</a>
+<a href="https://www.youtube.com/watch?v=9V1Vu6hdX1A" rel="nofollow">[youtube https://www.youtube.com/watch?v=9V1Vu6hdX1A&amp;w=1280&amp;h=753]</a>
+<a href="https://www.youtube.com/watch?v=dsQnqRRhkoQ" rel="nofollow">[youtube https://www.youtube.com/watch?v=dsQnqRRhkoQ&amp;w=1280&amp;h=753]</a>
+
+<b>εικόνες:</b>
+<img class="" src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/skeletos_moter.jpg?raw=true" width="200" height="150" />
+
+<h3>Φάση 6 - Αναγνώριση</h3>
+<b>βίντεο:</b> <a href="https://youtu.be/9Yb0n_LDOAg" rel="nofollow">[youtube https://youtu.be/9Yb0n_LDOAg&amp;w=1280&amp;h=753]</a>
+<h3>Φάση 7 Περίβλημα</h3>
+<img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/makingOf2.jpg?raw=true" width="200" /> <img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/makingOf3.jpg?raw=true" width="200" /> <img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/makingOf4.jpg?raw=true" width="200" /> <img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/makingOf5.jpg?raw=true" width="200" />
+<h2>Εγκατάσταση Λογισμικού</h2>
+Για να εγκαταστήσετε το πρόγραμμα
+Εγκαταστήστε python 3.5+
+Κάντε Compile τη dlib
+ανοίξτε από το res το db αρχείο και βάλτε τα δικά σας στοιχεία για τα άτομα και τα σχετικά μονοπάτια των φωτογραφιών
+τρέξτε το python main.py
+αν δεν έχετε όλες τις απαιτούμενες βιβλιοθήκες η python θα επιστρέψει σχετικό μήνυμα, τρέξτε το pip install όνομα_αυτης_που_λείπει
 <h2>Ενέργειες για το μέλλον</h2>
-Πρέπει να κατασκευαστεί ένα περίβλημα για να γίνει αισθητικά ωραιότερο το Ρομπότ. 
-
-<h2> Για να εγκαταστήσετε το πρόγραμμα </h2>
-<ul>
- <li>Εγκαταστήστε <b>python 3.5+</b></li>
- <li>Κάντε Compile τη <b>dlib</b></li>
- <li>ανοίξτε από το res το db αρχείο και βάλτε τα δικά σας στοιχεία για τα άτομα και τα σχετικά μονοπάτια των φωτογραφιών</li>
- <li>τρέξτε το python <b>main.py</b></li>
- <li>αν δεν έχετε όλες τις απαιτούμενες βιβλιοθήκες η python θα επιστρέψει σχετικό μήνυμα, τρέξτε το <b>pip install όνομα_αυτης_που_λείπει</b></li>
-
-<h2> Άδεια Χρήσης</h2>
-Ο κώδικας διανέμεται με άδεια χρήσης ανοιχτού κώδικα .
-<strong>MIT License</strong>.
+Πρέπει να κατασκευαστεί ένα περίβλημα για να γίνει αισθητικά ωραιότερο το Ρομπότ.
+<h2>Άδεια Χρήσης</h2>
+Ο κώδικας διανέμεται με άδεια χρήσης ανοιχτού κώδικα MIT License.
 Το εκπαιδευτικό υλικό και η τεκμηρίωση να διανέμεται με άδεια χρήσης <strong>CC-BY</strong>.
-
-
