@@ -109,6 +109,11 @@ class FaceRecognition:
           if(sendMailForUnknown  and (name=="Unknown"   or str(person[4]=="0"))): #αν εκτός ωραρίου και είτε μαθητής ή άγνωστος
             #πες συναγερμός 
             self.mediaHelper.playStringAsSound("Συναγερμός! Προσοχή, Προσοχή! Συναγερμός! Προσοχή, Προσοχή! Συναγερμός! Συναγερμός! Συναγερμός! Προσοχή, Προσοχή!")
+            try:
+              communicationsManager = CommunicationsManager("χχχχχ@gmail.com","χχχχχ@gmail.com","χχχχχχχ")
+              communicationsManager.sendMail("Εισβολέας "+name+" "+greekName)
+            except:
+              print("Λάθος username ? password ή password ή σύνδεση με google.")
             
 
       self.process_this_frame = not self.process_this_frame
