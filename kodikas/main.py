@@ -35,7 +35,7 @@ while True:  #για πάτα
     ora = int(datetime.now().strftime('%-H')) # πάρε την ώρα 
     lepta = int(datetime.now().strftime('%-M')) # πάρε το σε ποιο λεπτό είμαστε
     
-    if imeraEbdomadas!=0 and imeraEbdomadas!=6 and ora>=10 and ora <= 23 and False: # αν ανοικτό το σχολείο
+    if imeraEbdomadas!=0 and imeraEbdomadas!=6 and ora>=10 and ora <= 23: # αν ανοικτό το σχολείο
         if katastasi!="βοηθός": #αν άλλαξε η κατάσταση πες το
             katastasi="βοηθός"
             mediaHelper.playStringAsSound("Μπαίνω σε κατάσταση βοηθού")
