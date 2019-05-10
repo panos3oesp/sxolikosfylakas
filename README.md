@@ -15,27 +15,13 @@
 καταστάσεις όπως: <strong>ηρεμία</strong>,<strong> κίνηση στο χώρο του σχολείου</strong>, <strong>αναγνώριση και χαιρετισμός</strong>
 <strong>ονομαστικά προσώπων που συναντάει</strong>, <strong>παίξιμο μουσικής</strong>. Τα παραπάνω γίνονται <strong>τυχαία</strong>. Κάθε λίγο αλλάζει υποκατάσταση.
 
-<a href="https://youtu.be/2sGnoeIhILc" rel="nofollow">[youtube https://youtu.be/2sGnoeIhILc&amp;w=1280&amp;h=753]</a>
-
-
 <img class="size-medium aligncenter" src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/robotDesc1.png?raw=true" width="531" height="229" />
 
 &nbsp;
 
 <img class="size-medium aligncenter" src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/robotDesc2.png?raw=truehttp://" width="591" height="326" />
-
-<b>Αναγνώριση Προσώπων - Παίξιμο τυχαίου Τραγουδιού από φάκελο - Κατάσταση Ξεκούρασης: </b>
-<a href="https://youtu.be/9Yb0n_LDOAg" rel="nofollow">[youtube https://youtu.be/9Yb0n_LDOAg&amp;w=1280&amp;h=753]</a>
-
-<b>Συναγερμός </b>
-<a href="https://youtu.be/_wxA05xeLio" rel="nofollow">[youtube https://youtu.be/_wxA05xeLio&amp;w=1280&amp;h=753]</a>
-
-<b>Κίνηση στον Χώρο:</b>
-<a href="https://www.youtube.com/watch?v=BEWxxaO37NA" rel="nofollow">[youtube https://www.youtube.com/watch?v=BEWxxaO37NA&amp;w=1280&amp;h=753]</a>
-
-<b>Δοκιμές με την ομιλία:</b>
-
-<a href="https://www.youtube.com/watch?v=L-_xVFDmJX4" rel="nofollow">[youtube https://www.youtube.com/watch?v=rRDHxajtudI&amp;w=1280&amp;h=753]</a>
+<h2>Παρουσίαση δυνατοτήτων:</h2>
+<a href="https://www.youtube.com/watch?v=UrVr22XGyjo" rel="nofollow">[youtube https://www.youtube.com/watch?v=UrVr22XGyjo&amp;w=1280&amp;h=753]</a>
 <h2>Αποθετήρια &amp; OER CANVAS</h2>
 Αποθετήριο στο github: <a href="https://github.com/panos3oesp/sxolikosfylakas" target="_blank" rel="noopener">πατήστε εδώ</a>
 Project OER CANVAS: <a href="https://github.com/panos3oesp/sxolikosfylakas/raw/master/OER%20PROJECT.pdf" target="_blank" rel="noopener">πατήστε εδώ</a>
@@ -43,7 +29,7 @@ Project OER CANVAS: <a href="https://github.com/panos3oesp/sxolikosfylakas/raw/m
 &nbsp;
 
 &nbsp;
-<h2><img class="alignnone " src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/1.jpg?raw=true" width="296" height="444" /> <img class="alignnone " src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/8.jpg?raw=true" width="296" height="444" /> <img class="alignnone " src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/2.jpg?raw=true" width="296" height="444" /> <img class="alignnone " src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/3.jpg?raw=true" width="296" height="444" /></h2>
+<h2><img class="alignnone " src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/makingOf1.jpg?raw=true" width="296" height="444" /> <img class="alignnone " src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/8.jpg?raw=true" width="296" height="444" /> <img class="alignnone " src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/makingOf6.jpg?raw=true" width="296" height="444" /> <img class="alignnone " src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/3.jpg?raw=true" width="296" height="444" /></h2>
 <h2><img class="alignnone " src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/4.jpg?raw=true" width="296" height="444" /> <img class="alignnone " src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/5.jpg?raw=true" width="296" height="444" /> <img class="alignnone " src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/6.jpg?raw=true" width="296" height="444" /> <img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/7.jpg?raw=true" width="296" height="444" /></h2>
 <h2><a id="user-content-κώδικας---δομή" class="anchor" href="https://github.com/panos3oesp/sxolikosfylakas/blob/master/README.md#%CE%BA%CF%8E%CE%B4%CE%B9%CE%BA%CE%B1%CF%82---%CE%B4%CE%BF%CE%BC%CE%AE"></a>Κώδικας - Δομή</h2>
 Ο Κώδικας είναι γραμμένος σε γλώσσα προγραμματισμού <b>python 3.7+</b>. Ως αρχή διαχωρισμού του κώδικα σε στοιχεία, χρησιμοποιείται όπου είναι δυνατόν το πρότυπο <b>MVC</b> (Model - View - Controller). Ως views προς το παρόν θα είναι διαγνωστικά μηνύματα. Σε μελλοντική αναβάθμιση, θα είναι αλλαγές σε συνδεδεμένη οθόνη. Επιπλέον ο φάκελος
@@ -63,21 +49,21 @@ Helpers περιέχει βοηθιτικές κλάσεις υπεύθυνες 
 </ul>
 <h2><a id="user-content-διάγραμμα-ροής" class="anchor" href="https://github.com/panos3oesp/sxolikosfylakas/blob/master/README.md#%CE%B4%CE%B9%CE%AC%CE%B3%CF%81%CE%B1%CE%BC%CE%BC%CE%B1-%CF%81%CE%BF%CE%AE%CF%82"></a>Διάγραμμα Ροής</h2>
 <a href="https://github.com/panos3oesp/sxolikosfylakas/blob/master/robot.pdf"><img class="alignnone size-medium" src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/diagramma_rois.png?raw=true" width="2000" height="1877" /></a>
-<h2><span style="color: #24292e"><u><b>Διδακτική προσέγγιση:</b></u></span></h2>
-<span style="color: #24292e">Στη συνέχεια, για την πραγματοποίηση του </span><span style="color: #24292e"><span lang="en-US">project</span></span><span style="color: #24292e">,δημιουργήθηκαν από κοινού ομάδες εργασίας των μαθητών με κριτήριο την τάξη που φοιτούν και την δυσκολία που μπορεί να παρουσιάζει ο κάθε επί μέρους κώδικας. Ο στόχος ήταν η κάθε ομάδα να αναπτύξει δεξιότητες συναφείς με την γνώση που είχαν ήδη αποκτήσει.</span>
+<h2><span style="color: #24292e;"><u><b>Διδακτική προσέγγιση:</b></u></span></h2>
+<span style="color: #24292e;">Στη συνέχεια, για την πραγματοποίηση του </span><span style="color: #24292e;"><span lang="en-US">project</span></span><span style="color: #24292e;">,δημιουργήθηκαν από κοινού ομάδες εργασίας των μαθητών με κριτήριο την τάξη που φοιτούν και την δυσκολία που μπορεί να παρουσιάζει ο κάθε επί μέρους κώδικας. Ο στόχος ήταν η κάθε ομάδα να αναπτύξει δεξιότητες συναφείς με την γνώση που είχαν ήδη αποκτήσει.</span>
 
-<span style="color: #24292e">Η διδακτική προσέγγιση που ακολουθήθηκε από τους εκπαιδευτικούς –υπεύθυνους για το συγκεκριμένο </span><span style="color: #24292e"><span lang="en-US">project</span></span><span style="color: #24292e">, βασίζεται στις καινούργιες αρχές-τάσεις που αφορούν στη μάθηση, μερικές από αυτές περιγράφονται παρακάτω:</span>
+<span style="color: #24292e;">Η διδακτική προσέγγιση που ακολουθήθηκε από τους εκπαιδευτικούς –υπεύθυνους για το συγκεκριμένο </span><span style="color: #24292e;"><span lang="en-US">project</span></span><span style="color: #24292e;">, βασίζεται στις καινούργιες αρχές-τάσεις που αφορούν στη μάθηση, μερικές από αυτές περιγράφονται παρακάτω:</span>
 <ul>
- 	<li><span style="color: #24292e">Ενεργός συμμετοχή των μαθητών, ώστε να αξιοποιούν την φυσική τους διάθεση για διερεύνηση νέων πραγμάτων</span></li>
- 	<li><span style="color: #24292e">Κοινωνική αλληλεπίδραση με σκοπό να εξωτερικεύουν τις ιδέες τους μέσα σε μια ομάδα</span></li>
- 	<li><span style="color: #24292e">Δραστηριότητες που έχουν νόημα για τους μαθητές, που καταλαβαίνουν τον λόγο για τον οποίο τις κάνουν και είναι μέσα στην κουλτούρα τους.</span></li>
- 	<li><span style="color: #24292e">Σύνδεση των νέων τεχνολογιών με τις προϋπάρχουσες γνώσεις που ενεργοποιούνται και χρησιμεύουν στην ικανότητα της κατανόησης</span></li>
- 	<li><span style="color: #24292e">Χρήση στρατηγικών μάθησης ώστε οι μαθητές να αναλαμβάνουν περισσότερες ευθύνες</span></li>
- 	<li><span style="color: #24292e">Ανάπτυξη του αναστοχασμού των μαθητών, ώστε να σχεδιάζουν και να παρακολουθούν οι ίδιοι τη μάθηση τους και να διορθώνουν τα λάθη τους</span></li>
- 	<li><span style="color: #24292e">Αναδόμηση της προϋπάρχουσας γνώσης ώστε αυτή να μην αποτελεί εμπόδιο για τα νέα γνωστικά αντικείμενα</span></li>
- 	<li><span style="color: #24292e">Στόχος η κατανόηση και όχι η απομνημόνευση</span></li>
- 	<li><span style="color: #24292e">Διάθεση χρόνου για εξάσκηση των μαθητών που είναι απαραίτητη για την συγκρότηση της γνώσης</span></li>
- 	<li><span style="color: #24292e">Καλλιέργεια κινήτρων για μάθηση που οι μαθητές καθοδηγούμενοι από τον εκπαιδευτικό συμμετέχουν ενεργά σε δραστηριότητες.</span></li>
+ 	<li><span style="color: #24292e;">Ενεργός συμμετοχή των μαθητών, ώστε να αξιοποιούν την φυσική τους διάθεση για διερεύνηση νέων πραγμάτων</span></li>
+ 	<li><span style="color: #24292e;">Κοινωνική αλληλεπίδραση με σκοπό να εξωτερικεύουν τις ιδέες τους μέσα σε μια ομάδα</span></li>
+ 	<li><span style="color: #24292e;">Δραστηριότητες που έχουν νόημα για τους μαθητές, που καταλαβαίνουν τον λόγο για τον οποίο τις κάνουν και είναι μέσα στην κουλτούρα τους.</span></li>
+ 	<li><span style="color: #24292e;">Σύνδεση των νέων τεχνολογιών με τις προϋπάρχουσες γνώσεις που ενεργοποιούνται και χρησιμεύουν στην ικανότητα της κατανόησης</span></li>
+ 	<li><span style="color: #24292e;">Χρήση στρατηγικών μάθησης ώστε οι μαθητές να αναλαμβάνουν περισσότερες ευθύνες</span></li>
+ 	<li><span style="color: #24292e;">Ανάπτυξη του αναστοχασμού των μαθητών, ώστε να σχεδιάζουν και να παρακολουθούν οι ίδιοι τη μάθηση τους και να διορθώνουν τα λάθη τους</span></li>
+ 	<li><span style="color: #24292e;">Αναδόμηση της προϋπάρχουσας γνώσης ώστε αυτή να μην αποτελεί εμπόδιο για τα νέα γνωστικά αντικείμενα</span></li>
+ 	<li><span style="color: #24292e;">Στόχος η κατανόηση και όχι η απομνημόνευση</span></li>
+ 	<li><span style="color: #24292e;">Διάθεση χρόνου για εξάσκηση των μαθητών που είναι απαραίτητη για την συγκρότηση της γνώσης</span></li>
+ 	<li><span style="color: #24292e;">Καλλιέργεια κινήτρων για μάθηση που οι μαθητές καθοδηγούμενοι από τον εκπαιδευτικό συμμετέχουν ενεργά σε δραστηριότητες.</span></li>
 </ul>
 <h2><a id="user-content-υλικά" class="anchor" href="https://github.com/panos3oesp/sxolikosfylakas/blob/master/README.md#%CF%85%CE%BB%CE%B9%CE%BA%CE%AC"></a>Υλικά</h2>
 Πρόκειται να χρησιμοποιήσουμε τα παρακάτω υλικά:
@@ -249,9 +235,9 @@ Helpers περιέχει βοηθιτικές κλάσεις υπεύθυνες 
 <b>εικόνες:</b>
 <img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/ras1.jpg?raw=true" width="200" /> <img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/ras2.jpg?raw=true" width="200" /> <img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/ras3.jpg?raw=true" width="200" /> <img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/ras4.jpg?raw=true" width="200" />
 <h3>Φάση 4 - Arduino</h3>
-<b>βίντεο:</b> <a href="http://doricsoft.com/robot/fasi3.mp4" target="_blank" rel="noopener">εδώ</a>
+<b>βίντεο:</b> <a href="https://youtu.be/w9END-3aBro" rel="nofollow">[youtube https://youtu.be/w9END-3aBro&amp;w=1280&amp;h=753]</a>
 <b>εικόνες:</b>
-<img src="http://doricsoft.com/robot/fasi3_1.jpg" />
+<img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/arduinoRasp1.jpg?raw=true" width="200" /> <img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/arduinoRasp2.jpg?raw=true" width="200" />
 <h3>Φάση 5 - Moter</h3>
 <b>βίντεο:</b>
 Δοκιμές χωρίς ελεγκτές:
@@ -263,7 +249,6 @@ Helpers περιέχει βοηθιτικές κλάσεις υπεύθυνες 
 
 <b>εικόνες:</b>
 <img class="" src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/skeletos_moter.jpg?raw=true" width="200" height="150" />
-
 <h3>Φάση 6 - Αναγνώριση</h3>
 <b>βίντεο:</b> <a href="https://youtu.be/9Yb0n_LDOAg" rel="nofollow">[youtube https://youtu.be/9Yb0n_LDOAg&amp;w=1280&amp;h=753]</a>
 <h3>Φάση 7 Περίβλημα</h3>
