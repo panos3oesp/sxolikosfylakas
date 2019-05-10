@@ -52,7 +52,7 @@ Helpers περιέχει βοηθιτικές κλάσεις υπεύθυνες 
  	<li>configuration.py (αρχείο ρυθμίσεων)</li>
 </ul>
 <h2><a id="user-content-διάγραμμα-ροής" class="anchor" href="https://github.com/panos3oesp/sxolikosfylakas/blob/master/README.md#%CE%B4%CE%B9%CE%AC%CE%B3%CF%81%CE%B1%CE%BC%CE%BC%CE%B1-%CF%81%CE%BF%CE%AE%CF%82"></a>Διάγραμμα Ροής</h2>
-<a href="https://github.com/panos3oesp/sxolikosfylakas/blob/master/robot.pdf"><img class="alignnone size-medium" src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/diagramma_rois.png?raw=true" width="2000" height="1877" /></a>
+<a href="https://github.com/panos3oesp/sxolikosfylakas/blob/master/robot.pdf"><img style="max-width: 100%; height: auto;" class="alignnone size-medium" src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/diagramma_rois.png?raw=true" width="2000" height="1877" /></a>
 <h2><span style="color: #24292e"><u><b>Διδακτική προσέγγιση:</b></u></span></h2>
 <span style="color: #24292e">Στη συνέχεια, για την πραγματοποίηση του </span><span style="color: #24292e"><span lang="en-US">project</span></span><span style="color: #24292e">,δημιουργήθηκαν από κοινού ομάδες εργασίας των μαθητών με κριτήριο την τάξη που φοιτούν και την δυσκολία που μπορεί να παρουσιάζει ο κάθε επί μέρους κώδικας. Ο στόχος ήταν η κάθε ομάδα να αναπτύξει δεξιότητες συναφείς με την γνώση που είχαν ήδη αποκτήσει.</span>
 
