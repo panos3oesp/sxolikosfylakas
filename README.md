@@ -26,6 +26,10 @@
 Αποθετήριο στο github: <a href="https://github.com/panos3oesp/sxolikosfylakas" target="_blank" rel="noopener">πατήστε εδώ</a>
 Project OER CANVAS: <a href="https://github.com/panos3oesp/sxolikosfylakas/raw/master/OER%20PROJECT.pdf" target="_blank" rel="noopener">πατήστε εδώ</a>
 
+<h2>Ομάδα Μαθητών</h2>
+<a href="https://github.com/panos3oesp/sxolikosfylakas/raw/master/%CE%9B%CE%99%CE%A3%CE%A4%CE%91-%CE%9C%CE%91%CE%98%CE%97%CE%A4%CE%A9%CE%9D-%CE%A3%CE%A7%CE%9F%CE%9B%CE%99%CE%9A%CE%9F%CE%A3%20%CE%A6%CE%A5%CE%9B%CE%91%CE%9A%CE%91%CE%A3%20%CE%A1%CE%9F%CE%9C%CE%A0%CE%9F%CE%A4%20-%203%CE%BF%20%CE%95%CF%83%CF%80%CE%B5%CF%81%CE%B9%CE%BD%CF%8C%20%CE%95%CE%A0%CE%91%CE%9B%20%CE%9D.%CE%A6%CE%B9%CE%BB%CE%B1%CE%B4%CE%AD%CE%BB%CF%86%CE%B5%CE%B9%CE%B1%CF%82.xlsx" target="_blank" rel="noopener">πατήστε εδώ</a>
+
+
 &nbsp;
 
 &nbsp;
@@ -49,21 +53,21 @@ Helpers περιέχει βοηθιτικές κλάσεις υπεύθυνες 
 </ul>
 <h2><a id="user-content-διάγραμμα-ροής" class="anchor" href="https://github.com/panos3oesp/sxolikosfylakas/blob/master/README.md#%CE%B4%CE%B9%CE%AC%CE%B3%CF%81%CE%B1%CE%BC%CE%BC%CE%B1-%CF%81%CE%BF%CE%AE%CF%82"></a>Διάγραμμα Ροής</h2>
 <a href="https://github.com/panos3oesp/sxolikosfylakas/blob/master/robot.pdf"><img class="alignnone size-medium" src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/diagramma_rois.png?raw=true" width="2000" height="1877" /></a>
-<h2><span style="color: #24292e;"><u><b>Διδακτική προσέγγιση:</b></u></span></h2>
-<span style="color: #24292e;">Στη συνέχεια, για την πραγματοποίηση του </span><span style="color: #24292e;"><span lang="en-US">project</span></span><span style="color: #24292e;">,δημιουργήθηκαν από κοινού ομάδες εργασίας των μαθητών με κριτήριο την τάξη που φοιτούν και την δυσκολία που μπορεί να παρουσιάζει ο κάθε επί μέρους κώδικας. Ο στόχος ήταν η κάθε ομάδα να αναπτύξει δεξιότητες συναφείς με την γνώση που είχαν ήδη αποκτήσει.</span>
+<h2><span style="color: #24292e"><u><b>Διδακτική προσέγγιση:</b></u></span></h2>
+<span style="color: #24292e">Στη συνέχεια, για την πραγματοποίηση του </span><span style="color: #24292e"><span lang="en-US">project</span></span><span style="color: #24292e">,δημιουργήθηκαν από κοινού ομάδες εργασίας των μαθητών με κριτήριο την τάξη που φοιτούν και την δυσκολία που μπορεί να παρουσιάζει ο κάθε επί μέρους κώδικας. Ο στόχος ήταν η κάθε ομάδα να αναπτύξει δεξιότητες συναφείς με την γνώση που είχαν ήδη αποκτήσει.</span>
 
-<span style="color: #24292e;">Η διδακτική προσέγγιση που ακολουθήθηκε από τους εκπαιδευτικούς –υπεύθυνους για το συγκεκριμένο </span><span style="color: #24292e;"><span lang="en-US">project</span></span><span style="color: #24292e;">, βασίζεται στις καινούργιες αρχές-τάσεις που αφορούν στη μάθηση, μερικές από αυτές περιγράφονται παρακάτω:</span>
+<span style="color: #24292e">Η διδακτική προσέγγιση που ακολουθήθηκε από τους εκπαιδευτικούς –υπεύθυνους για το συγκεκριμένο </span><span style="color: #24292e"><span lang="en-US">project</span></span><span style="color: #24292e">, βασίζεται στις καινούργιες αρχές-τάσεις που αφορούν στη μάθηση, μερικές από αυτές περιγράφονται παρακάτω:</span>
 <ul>
- 	<li><span style="color: #24292e;">Ενεργός συμμετοχή των μαθητών, ώστε να αξιοποιούν την φυσική τους διάθεση για διερεύνηση νέων πραγμάτων</span></li>
- 	<li><span style="color: #24292e;">Κοινωνική αλληλεπίδραση με σκοπό να εξωτερικεύουν τις ιδέες τους μέσα σε μια ομάδα</span></li>
- 	<li><span style="color: #24292e;">Δραστηριότητες που έχουν νόημα για τους μαθητές, που καταλαβαίνουν τον λόγο για τον οποίο τις κάνουν και είναι μέσα στην κουλτούρα τους.</span></li>
- 	<li><span style="color: #24292e;">Σύνδεση των νέων τεχνολογιών με τις προϋπάρχουσες γνώσεις που ενεργοποιούνται και χρησιμεύουν στην ικανότητα της κατανόησης</span></li>
- 	<li><span style="color: #24292e;">Χρήση στρατηγικών μάθησης ώστε οι μαθητές να αναλαμβάνουν περισσότερες ευθύνες</span></li>
- 	<li><span style="color: #24292e;">Ανάπτυξη του αναστοχασμού των μαθητών, ώστε να σχεδιάζουν και να παρακολουθούν οι ίδιοι τη μάθηση τους και να διορθώνουν τα λάθη τους</span></li>
- 	<li><span style="color: #24292e;">Αναδόμηση της προϋπάρχουσας γνώσης ώστε αυτή να μην αποτελεί εμπόδιο για τα νέα γνωστικά αντικείμενα</span></li>
- 	<li><span style="color: #24292e;">Στόχος η κατανόηση και όχι η απομνημόνευση</span></li>
- 	<li><span style="color: #24292e;">Διάθεση χρόνου για εξάσκηση των μαθητών που είναι απαραίτητη για την συγκρότηση της γνώσης</span></li>
- 	<li><span style="color: #24292e;">Καλλιέργεια κινήτρων για μάθηση που οι μαθητές καθοδηγούμενοι από τον εκπαιδευτικό συμμετέχουν ενεργά σε δραστηριότητες.</span></li>
+ 	<li><span style="color: #24292e">Ενεργός συμμετοχή των μαθητών, ώστε να αξιοποιούν την φυσική τους διάθεση για διερεύνηση νέων πραγμάτων</span></li>
+ 	<li><span style="color: #24292e">Κοινωνική αλληλεπίδραση με σκοπό να εξωτερικεύουν τις ιδέες τους μέσα σε μια ομάδα</span></li>
+ 	<li><span style="color: #24292e">Δραστηριότητες που έχουν νόημα για τους μαθητές, που καταλαβαίνουν τον λόγο για τον οποίο τις κάνουν και είναι μέσα στην κουλτούρα τους.</span></li>
+ 	<li><span style="color: #24292e">Σύνδεση των νέων τεχνολογιών με τις προϋπάρχουσες γνώσεις που ενεργοποιούνται και χρησιμεύουν στην ικανότητα της κατανόησης</span></li>
+ 	<li><span style="color: #24292e">Χρήση στρατηγικών μάθησης ώστε οι μαθητές να αναλαμβάνουν περισσότερες ευθύνες</span></li>
+ 	<li><span style="color: #24292e">Ανάπτυξη του αναστοχασμού των μαθητών, ώστε να σχεδιάζουν και να παρακολουθούν οι ίδιοι τη μάθηση τους και να διορθώνουν τα λάθη τους</span></li>
+ 	<li><span style="color: #24292e">Αναδόμηση της προϋπάρχουσας γνώσης ώστε αυτή να μην αποτελεί εμπόδιο για τα νέα γνωστικά αντικείμενα</span></li>
+ 	<li><span style="color: #24292e">Στόχος η κατανόηση και όχι η απομνημόνευση</span></li>
+ 	<li><span style="color: #24292e">Διάθεση χρόνου για εξάσκηση των μαθητών που είναι απαραίτητη για την συγκρότηση της γνώσης</span></li>
+ 	<li><span style="color: #24292e">Καλλιέργεια κινήτρων για μάθηση που οι μαθητές καθοδηγούμενοι από τον εκπαιδευτικό συμμετέχουν ενεργά σε δραστηριότητες.</span></li>
 </ul>
 <h2><a id="user-content-υλικά" class="anchor" href="https://github.com/panos3oesp/sxolikosfylakas/blob/master/README.md#%CF%85%CE%BB%CE%B9%CE%BA%CE%AC"></a>Υλικά</h2>
 Πρόκειται να χρησιμοποιήσουμε τα παρακάτω υλικά:
@@ -250,7 +254,7 @@ Helpers περιέχει βοηθιτικές κλάσεις υπεύθυνες 
 <b>εικόνες:</b>
 <img class="" src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/skeletos_moter.jpg?raw=true" width="200" height="150" />
 <h3>Φάση 6 - Αναγνώριση</h3>
-<b>βίντεο:</b> <a href="https://youtu.be/9Yb0n_LDOAg" rel="nofollow">[youtube https://youtu.be/9Yb0n_LDOAg&amp;w=1280&amp;h=753]</a>
+<b>βίντεο:</b> <a href="https://youtu.be/BhZOlY-OXyQ" rel="nofollow">[youtube https://youtu.be/BhZOlY-OXyQ&amp;w=1280&amp;h=753]</a>
 <h3>Φάση 7 Περίβλημα</h3>
 <img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/makingOf2.jpg?raw=true" width="200" /> <img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/makingOf3.jpg?raw=true" width="200" /> <img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/makingOf4.jpg?raw=true" width="200" /> <img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/makingOf5.jpg?raw=true" width="200" />
 <h2>Εγκατάσταση Λογισμικού</h2>
