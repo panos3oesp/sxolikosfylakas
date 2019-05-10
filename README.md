@@ -133,9 +133,15 @@ Helpers περιέχει βοηθιτικές κλάσεις υπεύθυνες 
 <td>2</td>
 <td>11,20</td>
 </tr>
+ <tr>
+<td>10</td>
+<td>Arduino Uno</td>
+<td>1</td>
+<td>7</td>
+</tr>
 </tbody>
 </table>
-<b>Το συνολικό κόστος είναι 196,10 Ευρώ.</b>
+<b>Το συνολικό κόστος είναι 203,10 Ευρώ.</b>
 <h2>Ηλεκτρονικό Κύκλωμα</h2>
 <img class="size-medium aligncenter" src="https://github.com/panos3oesp/sxolikosfylakas/raw/master/ilektroniko_kykloma_big.png" width="600" height="744" />
 
