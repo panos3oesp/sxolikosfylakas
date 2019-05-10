@@ -11,24 +11,32 @@
 #-------------------------------------------------------------------------------
 */
 #Set the pins of the sensors as constants
-#define sensor A0 // Sharp IR GP2Y0A41SK0F (4-30cm, analog)
+#define sensor0 A0 // Sharp IR GP2Y0A41SK0F (4-30cm, analog)
 #define sensor1 A1 // Sharp IR GP2Y0A41SK0F (4-30cm, analog)
+#define sensor2 A2 // Sharp IR GP2Y0A41SK0F (4-30cm, analog)
+#define sensor3 A3 // Sharp IR GP2Y0A41SK0F (4-30cm, analog)
+
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600); // start the serial port
 }
+
+
+
 void loop() {
-  //  // put your main code here, to run repeatedly:
-  float volts = analogRead(sensor) * 0.0048828125; // value from sensor * (5/1024)
-  int distance = 13 * pow(volts, -1); // worked out from datasheet graph
-
-  float volts1 = analogRead(sensor1) * 0.0048828125; // value from sensor1 * (5/1024)
-  int distance1 = 13 * pow(volts1, -1); // worked out from datasheet graph
-
-  delay(200); // slow down serial port
-  //if in small distance
- if (distance <= 20 || distance1 <= 20 ) {
-   Serial.print(String(distance)+","+String(distance1));   // print the distance
-    
-  } 
+  //get analogue values for 4 distance sensors
+  float distance0 = analogRead(sensor0);
+  float distance1 = analogRead(sensor1);
+  float distance2 = analogRead(sensor2);
+  float distance3 = analogRead(sensor3);
+  
+  //if(Serial.available()){ // only send data back if data has been sent
+  //if (distance0 <= 60 || distance1 <= 60 || distance2 <= 60 || distance3 <= 60 ) {
+   Serial.println(String(distance0)+","+String(distance1)+","+String(distance2)+","+String(distance3));   // print the distance to the serial line
+   delay(200); // slow down serial port
+   Serial.flush(); //flush the data to sync
+  //} 
+  //}
+  
 }
+
