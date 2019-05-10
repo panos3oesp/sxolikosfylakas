@@ -259,11 +259,34 @@ Helpers περιέχει βοηθιτικές κλάσεις υπεύθυνες 
 <img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/makingOf2.jpg?raw=true" width="200" /> <img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/makingOf3.jpg?raw=true" width="200" /> <img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/makingOf4.jpg?raw=true" width="200" /> <img src="https://github.com/panos3oesp/sxolikosfylakas/blob/master/images/makingOf5.jpg?raw=true" width="200" />
 <h2>Εγκατάσταση Λογισμικού</h2>
 Για να εγκαταστήσετε το πρόγραμμα
-Εγκαταστήστε python 3.5+
-Κάντε Compile τη dlib
-ανοίξτε από το res το db αρχείο και βάλτε τα δικά σας στοιχεία για τα άτομα και τα σχετικά μονοπάτια των φωτογραφιών
+1. Εγκαταστήστε python 3.5+
+2. Εγκαταστήστε τις απαραίτητες βιβλιοθήκες μέσω των παρακάτω εντολών:
+<div style="padding: 20px; font-size: 8px; border: solid black 1px;background: #faffd3">
+sudo apt-get update
+sudo apt-get install build-essential cmake
+sudo apt-get install libopenblas-dev liblapack-dev libatlas-base-dev
+sudo apt-get install libx11-dev libgtk-3-dev
+sudo apt-get install libboost-all-dev
+sudo apt-get install mp321
+sudo apt-get install p
+sudo apt-get install python3-pyaudio 
+sudo apt-get install libatlas-base-dev
+sudo apt-get install libjasper-dev
+sudo apt-get install libqtgui4
+sudo apt-get install python3-pyqt5
+sudo apt install libqt4-test
+
+pip3 install gTTS
+pip3 install RIPi.GPIO
+pip3   --no-cache-dir  install dlib
+pip3   --no-cache-dir  install face_recognition
+sudo pip3 install SpeechRecognition
+pip3 install opencv-python
+
+</div>
+3. ανοίξτε από το res το db αρχείο και βάλτε τα δικά σας στοιχεία για τα άτομα και τα σχετικά μονοπάτια των φωτογραφιών
 τρέξτε το python main.py
-αν δεν έχετε όλες τις απαιτούμενες βιβλιοθήκες η python θα επιστρέψει σχετικό μήνυμα, τρέξτε το pip install όνομα_αυτης_που_λείπει
+
 <h2>Ενέργειες για το μέλλον</h2>
 Πρέπει να κατασκευαστεί ένα περίβλημα για να γίνει αισθητικά ωραιότερο το Ρομπότ.
 <h2>Άδεια Χρήσης</h2>
