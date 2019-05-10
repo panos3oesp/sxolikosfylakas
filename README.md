@@ -262,26 +262,26 @@ Helpers περιέχει βοηθιτικές κλάσεις υπεύθυνες 
 1. Εγκαταστήστε python 3.5+
 2. Εγκαταστήστε τις απαραίτητες βιβλιοθήκες μέσω των παρακάτω εντολών:
 <div style="padding: 20px; font-size: 8px; border: solid black 1px;background: #faffd3">
-sudo apt-get update
-sudo apt-get install build-essential cmake
-sudo apt-get install libopenblas-dev liblapack-dev libatlas-base-dev
-sudo apt-get install libx11-dev libgtk-3-dev
-sudo apt-get install libboost-all-dev
-sudo apt-get install mp321
-sudo apt-get install p
-sudo apt-get install python3-pyaudio 
-sudo apt-get install libatlas-base-dev
-sudo apt-get install libjasper-dev
-sudo apt-get install libqtgui4
-sudo apt-get install python3-pyqt5
-sudo apt install libqt4-test
-
-pip3 install gTTS
-pip3 install RIPi.GPIO
-pip3   --no-cache-dir  install dlib
-pip3   --no-cache-dir  install face_recognition
-sudo pip3 install SpeechRecognition
-pip3 install opencv-python
+sudo apt-get update<br />
+sudo apt-get install build-essential cmake<br />
+sudo apt-get install libopenblas-dev liblapack-dev libatlas-base-dev<br />
+sudo apt-get install libx11-dev libgtk-3-dev<br />
+sudo apt-get install libboost-all-dev<br />
+sudo apt-get install mp321<br />
+sudo apt-get install p<br />
+sudo apt-get install python3-pyaudio <br />
+sudo apt-get install libatlas-base-dev<br />
+sudo apt-get install libjasper-dev<br />
+sudo apt-get install libqtgui4<br />
+sudo apt-get install python3-pyqt5<br />
+sudo apt install libqt4-test<br />
+<br />
+pip3 install gTTS<br />
+pip3 install RIPi.GPIO<br />
+pip3   --no-cache-dir  install dlib<br />
+pip3   --no-cache-dir  install face_recognition<br />
+sudo pip3 install SpeechRecognition<br />
+pip3 install opencv-python<br />
 
 </div>
 3. ανοίξτε από το res το db αρχείο και βάλτε τα δικά σας στοιχεία για τα άτομα και τα σχετικά μονοπάτια των φωτογραφιών
